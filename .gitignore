@@ -1,4 +1,6 @@
 *venv
+*.env
 .ipynb_checkpoints
 3d_animation_low_lr
 3d_animation_high_lr
+*.gif
