@@ -1,101 +1,1001 @@
-,size,price
-0,63,430000
-1,70,420000
-2,78,650000
-3,200,450000
-4,360,2800000
-5,116,750000
-6,186,600000
-7,110,1080000
-8,65,430000
-9,286,1980000
-10,160,600000
-11,380,1850000
-12,187,770000
-13,240,2550000
-14,226,2000000
-15,240,2000000
-16,79,650000
-17,300,1650000
-18,51,560000
-19,220,1495000
-20,56,420000
-21,85,1172400
-22,78,510000
-23,190,2300000
-24,110,590000
-25,160,1200000
-26,60,585000
-27,290,1600000
-28,175,2173000
-29,96,850000
-30,178,2100000
-31,300,2500000
-32,255,1420000
-33,186,2544000
-34,50,373000
-35,63,510000
-36,130,980000
-37,60,445200
-38,99,770000
-39,186,1300000
-40,70,600000
-41,77,700000
-42,157,830000
-43,200,800000
-44,76,530000
-45,210,570000
-46,174,750000
-47,103,1113000
-48,95,689000
-49,94,670000
-50,60,511000
-51,60,700000
-52,88,424000
-53,126,480000
-54,143,1600000
-55,54,318000
-56,80,510000
-57,350,1500000
-58,72,320000
-59,112,750000
-60,109,795000
-61,100,750000
-62,240,690000
-63,272,1300000
-64,143,800000
-65,50,478000
-66,155,600000
-67,110,950000
-68,55,290000
-69,55,300000
-70,80,780000
-71,85,350000
-72,120,900000
-73,63,550000
-74,192,664000
-75,350,1700000
-76,140,650000
-77,65,420000
-78,62,382000
-79,53,370000
-80,250,1400000
-81,194,1990000
-82,230,2200000
-83,58,445000
-84,172,1650000
-85,210,1680000
-86,118,1250000
-87,133,1400000
-88,85,890000
-89,112,640000
-90,106,950000
-91,91,880000
-92,80,1200000
-93,248,1790000
-94,100,851000
-95,91,1200000
-96,164,1400000
-97,75,900000
-98,156,2000000
-99,55,480000
+,size,bedrooms,address,city,price,region_name,is_furnished,type,bathrooms,parking_spaces
+0,63,2,Rua Simão Velho,São Paulo,430000,Freguesia do Ó,false,Apartamento,2,1
+1,70,2,Rua Aureliano Leal,São Paulo,420000,Água Fria,false,Apartamento,1,1
+2,78,4,Avenida Deputado Rubéns Granja,São Paulo,650000,Vila das Mercês,false,Casa,4,3
+3,200,2,Rua Damião Fernandes,São Paulo,450000,Tucuruvi,false,Casa,2,1
+4,360,4,Rua Salvador Corrêa,São Paulo,2800000,Vila Mariana,false,Casa,3,4
+5,116,2,Rua Arantes Nogueira,São Paulo,750000,Jabaquara,false,Casa,2,5
+6,186,3,Rua Eugênio Egas,São Paulo,600000,Jardim Santa Emília,false,Casa,3,2
+7,110,3,Rua Luís Góis,São Paulo,1080000,Vila Clementino,true,Casa,2,1
+8,65,2,Rua Plínio Colás,São Paulo,430000,Santana,false,Apartamento,1,1
+9,286,4,Rua Quariteré,São Paulo,1980000,Mooca,false,Casa,5,8
+10,160,2,Rua Jaír Granato,São Paulo,600000,Mandaqui,false,Casa,2,1
+11,380,3,Rua Tebas,São Paulo,1850000,Vila Mascote,false,Casa,4,4
+12,187,3,Rua Imperatriz,São Paulo,770000,Água Fria,false,Casa,3,2
+13,240,4,Rua Albuquerque Lins,São Paulo,2550000,Santa Cecília,false,Apartamento,5,4
+14,226,4,Rua José Antônio Coelho,São Paulo,2000000,Vila Mariana,true,Casa,3,2
+15,240,4,Rua Maranhão,São Paulo,2000000,Higienópolis,false,Apartamento,3,2
+16,79,2,Rua Sabará,São Paulo,650000,Higienópolis,false,Apartamento,1,0
+17,300,4,Rua Henrique Péres,São Paulo,1650000,Mooca,false,Casa,4,3
+18,51,2,Rua Fiandeiras,São Paulo,560000,Vila Olímpia,false,Apartamento,1,0
+19,220,3,Rua Barão de Santa Branca,São Paulo,1495000,Campo Belo,false,Casa,2,3
+20,56,2,Rua Soares de Avellar,São Paulo,420000,Jabaquara,false,Apartamento,2,1
+21,85,2,Rua Cônego Eugênio Leite,São Paulo,1172400,Pinheiros,false,Apartamento,2,1
+22,78,3,Rua Voluntários da Pátria,São Paulo,510000,Santana,false,Apartamento,2,1
+23,190,3,Rua Bela Cintra,São Paulo,2300000,Jardim Paulista,false,Apartamento,2,2
+24,110,3,Rua Canindé-açú,São Paulo,590000,Vila Constança ,false,Casa,2,2
+25,160,3,Rua Alcindo Guanabara,São Paulo,1200000,Cambuci,false,Apartamento,4,2
+26,60,1,Avenida Angélica,São Paulo,585000,Barra Funda,false,Apartamento,1,1
+27,290,4,Rua Pedro Madureira,São Paulo,1600000,Santana,false,Casa,5,4
+28,175,3,Rua Maranhão,São Paulo,2173000,Higienópolis,false,Apartamento,5,3
+29,96,2,Praça General Gentil Falcão,São Paulo,850000,Brooklin,false,Apartamento,3,1
+30,178,3,Rua Doutor Veiga Filho,São Paulo,2100000,Santa Cecília,false,Apartamento,2,1
+31,300,3,Rua Félix de Sousa,São Paulo,2500000,Campo Belo,false,Casa,2,8
+32,255,3,Rua Fonseca da Costa,São Paulo,1420000,Bosque da Saúde,false,Casa,3,4
+33,50,2,Avenida Francisco Rodrigues,São Paulo,373000,Vila Constança ,false,CasaCondominio,3,1
+34,63,2,Rua Paulo Andrighetti,São Paulo,510000,Pari,false,Apartamento,2,1
+35,60,2,Rua Martim Affonso,São Paulo,445200,Belém,false,Apartamento,1,1
+36,99,2,Rua Lomas Valentinas,São Paulo,770000,Saúde,true,CasaCondominio,1,2
+37,186,3,Rua Lydia Ferrari Magnoli,São Paulo,1300000,Jardim Avelino ,false,Apartamento,4,3
+38,70,2,Rua Coronel Diogo,São Paulo,600000,Cambuci,false,Casa,1,1
+39,77,1,Rua Xavier da Veiga,São Paulo,700000,Santana,false,Apartamento,2,1
+40,157,3,Rua Guedes Galvão,São Paulo,830000,Jabaquara,false,Casa,5,2
+41,200,4,Rua Rio Doce,São Paulo,800000,Vila Gustavo,false,Casa,3,2
+42,76,2,Largo Padre Péricles,São Paulo,530000,Barra Funda,false,Apartamento,1,0
+43,210,3,Rua Lenize Mazzei,São Paulo,570000,Vila Mazzei,false,Casa,2,2
+44,174,4,Avenida Parada Pinto,São Paulo,750000,Mandaqui,false,Apartamento,2,3
+45,95,2,Rua das Palmeiras,São Paulo,689000,Santa Cecília,false,Apartamento,1,1
+46,94,2,Rua dos Heliotrópios,São Paulo,670000,Chácara Inglesa,true,Apartamento,1,2
+47,60,2,Avenida Parada Pinto,São Paulo,511000,Vila Amália,false,Apartamento,2,2
+48,60,2,Rua Emboaçava,São Paulo,700000,Mooca,true,Apartamento,2,1
+49,88,2,Rua Deputado Vicente Penido,São Paulo,424000,Vila Maria ,false,Apartamento,2,1
+50,126,3,Rua General Flores,São Paulo,480000,Bom Retiro,false,Apartamento,2,0
+51,54,1,Rua Fernão Sáles,São Paulo,318000,Liberdade,false,Apartamento,1,0
+52,80,2,Avenida do Cursino,São Paulo,510000,Bosque da Saúde,false,Apartamento,1,0
+53,350,4,Rua Benta Pereira,São Paulo,1500000,Santana,true,Casa,5,7
+54,72,2,Rua Laranjal,São Paulo,320000,Sacomã,false,Apartamento,2,1
+55,112,3,Alameda Barão de Limeira,São Paulo,750000,Bom Retiro,false,Apartamento,2,1
+56,109,2,Avenida São João,São Paulo,795000,Santa Cecília,false,Apartamento,3,1
+57,100,2,Avenida São João,São Paulo,750000,Santa Cecília,false,Apartamento,1,0
+58,240,2,Avenida Nossa Senhora do Lorêto,São Paulo,690000,Vila Ede,false,Casa,1,2
+59,272,4,Rua Verinha Darcy,São Paulo,1300000,Campo Belo,true,CasaCondominio,5,5
+60,143,4,Rua Hanna Abduch,São Paulo,800000,Freguesia do Ó,false,Casa,2,3
+61,50,1,Rua dos Estudantes,São Paulo,478000,Liberdade,false,Apartamento,1,0
+62,155,4,Rua Maria Alice,São Paulo,600000,Vila Constança ,false,Casa,3,2
+63,110,3,Rua Durval do Nascimento Miele,São Paulo,950000,Vila Clementino,false,Casa,2,0
+64,55,2,Rua Kaneda,São Paulo,290000,Vila Maria ,false,Apartamento,1,1
+65,55,2,Rua Camarujipe,São Paulo,300000,Vila Constança ,false,Apartamento,1,1
+66,80,3,Rua Cunha Gago,São Paulo,780000,Pinheiros,false,Casa,2,0
+67,85,2,Rua Manoel Dias do Campo,São Paulo,350000,Vila Santa Maria,false,Casa,2,1
+68,120,2,Praça Presidente Jânio da Silva Quadros,São Paulo,900000,Vila Maria ,false,Casa,2,2
+69,192,2,Rua da Ventura,São Paulo,664000,Vila Nova Cachoeirinha,false,Casa,1,1
+70,350,3,Alameda dos Indígenas,São Paulo,1700000,Planalto Paulista,false,Casa,4,2
+71,140,2,Avenida Rio Branco,São Paulo,650000,Centro,false,Apartamento,1,0
+72,65,2,Avenida Santo Albano,São Paulo,420000,Vila das Mercês,false,Apartamento,2,1
+73,53,2,Rua Santo Antônio,São Paulo,370000,Bela Vista,false,Apartamento,1,0
+74,250,4,Avenida Angélica,São Paulo,1400000,Santa Cecília,true,Apartamento,3,1
+75,194,3,Rua Haddock Lobo,São Paulo,1990000,Jardim Paulista,false,Apartamento,3,1
+76,230,4,Rua Princesa Isabel,São Paulo,2200000,Brooklin,false,Apartamento,3,4
+77,58,2,Rua Manifesto,São Paulo,445000,Ipiranga,false,Apartamento,1,1
+78,172,4,Rua Pascal,São Paulo,1650000,Campo Belo,true,Apartamento,3,2
+79,210,3,Rua Piauí,São Paulo,1680000,Higienópolis,false,Apartamento,3,0
+80,118,3,Rua Itacolomi,São Paulo,1250000,Higienópolis,false,Apartamento,2,1
+81,133,3,Rua Pamplona,São Paulo,1400000,Bela Vista,false,Apartamento,3,1
+82,85,3,Rua Guaraiúva,São Paulo,890000,Brooklin,false,Apartamento,1,2
+83,112,2,R. da Glória,São Paulo,640000,Liberdade,false,Apartamento,2,1
+84,106,2,Rua Paris,São Paulo,950000,Sumaré,false,Apartamento,2,2
+85,91,3,Rua Pelotas,São Paulo,880000,Vila Mariana,false,Apartamento,2,2
+86,80,2,Avenida Rebouças,São Paulo,1200000,Jardim América,true,Apartamento,2,0
+87,248,3,Rua Maurício Francisco Klabin,São Paulo,1790000,Vila Mariana,false,Apartamento,4,4
+88,100,3,Rua Colônia da Glória,São Paulo,851000,Vila Mariana,false,Apartamento,2,2
+89,91,3,Rua Urussuí,São Paulo,1200000,Itaim Bibi,true,Apartamento,2,1
+90,164,3,Rua São Carlos do Pinhal,São Paulo,1400000,Bela Vista,false,Apartamento,3,1
+91,75,1,Rua Tabapuã,São Paulo,900000,Itaim Bibi,false,Apartamento,2,1
+92,156,3,Rua Tuim,São Paulo,2000000,Moema,false,Apartamento,5,2
+93,55,1,Rua Agostinho Gomes,São Paulo,480000,Ipiranga,false,Apartamento,1,1
+94,289,3,Rua Comendador Miguel Calfat,São Paulo,1980000,Vila Olímpia,true,Apartamento,2,2
+95,97,3,Rua Jesuíno Arruda,São Paulo,1140000,Itaim Bibi,false,Apartamento,2,1
+96,202,3,Rua Mussumés,São Paulo,1100000,Vila Maria ,false,Apartamento,4,4
+97,210,4,Rua Paraguaçu,São Paulo,2400000,Perdizes,false,Apartamento,4,3
+98,58,2,Rua do Manifesto,São Paulo,400000,Ipiranga,false,Apartamento,1,0
+99,51,2,Rua Caio Prado,São Paulo,420000,Consolação,false,Apartamento,1,0
+100,126,3,Rua Havaí,São Paulo,1100000,Sumaré,false,Apartamento,3,1
+101,110,2,Rua Doutor Thirso Martins,São Paulo,910000,Vila Mariana,false,Apartamento,2,1
+102,182,3,Rua Baronesa de Itu,São Paulo,1400000,Santa Cecília,false,Apartamento,3,0
+103,65,1,Rua Ceramica,São Paulo,300000,São João Clímaco,false,Apartamento,1,1
+104,175,3,Rua Altinópolis,São Paulo,989000,Água Fria,false,Apartamento,2,2
+105,105,3,Rua Manoel Carneiro Silva,São Paulo,800000,Bosque da Saúde,false,Apartamento,4,0
+106,180,3,Avenida Jurucê,São Paulo,1800000,Moema,true,Apartamento,3,3
+107,132,3,Rua Lydia Ferrari Magnoli,São Paulo,900000,Jardim Avelino ,true,Apartamento,3,2
+108,220,4,Rua Raul Pompéia,São Paulo,1950000,Vila Pompéia,false,Apartamento,4,0
+109,150,4,Rua Francisco Maldonado,São Paulo,995000,Bosque da Saúde,false,Apartamento,5,4
+110,255,4,Rua Sílvio Rodini,São Paulo,1800000,Água Fria,false,Apartamento,7,4
+111,50,2,Rua Eneas Luis Carlos Barbante,São Paulo,340000,Freguesia do Ó,true,Apartamento,1,1
+112,76,3,Avenida Ede,São Paulo,395000,Vila Ede,false,Apartamento,2,1
+113,150,3,Alameda Jaú,São Paulo,2100000,Jardim Paulista,false,Apartamento,5,3
+114,66,2,Rua Almirante José Saldanha da Gama,São Paulo,500000,Mandaqui,false,Apartamento,1,0
+115,136,3,Rua Ernesto de Oliveira,São Paulo,1200000,Vila Mariana,false,Apartamento,3,3
+116,66,3,Avenida Padre Arlindo Vieira,São Paulo,318000,Jardim Santa Emília,false,Apartamento,1,0
+117,190,4,Rua Capitão Alberto Mendes Júnior,São Paulo,1280000,Água Fria,false,Apartamento,2,3
+118,75,2,Rua Condessa de São Joaquim,São Paulo,580000,Bela Vista,true,Apartamento,2,0
+119,60,2,Rua Jacofer,São Paulo,398000,Casa Verde,false,Apartamento,2,0
+120,73,2,Rua Conselheiro Brotero,São Paulo,610000,Santa Cecília,false,Apartamento,1,1
+121,120,3,Rua Iris Leonor,São Paulo,779000,Mandaqui,false,Apartamento,3,3
+122,55,2,Rua do Parque,São Paulo,465000,Bosque da Saúde,false,Apartamento,2,2
+123,70,2,Rua Faustolo,São Paulo,750000,Água Branca,false,Apartamento,2,2
+124,96,3,Avenida Santa Inês,São Paulo,550000,Mandaqui,false,Apartamento,3,1
+125,92,3,Rua Teodoro de Beaurepaire,São Paulo,750000,Ipiranga,false,Apartamento,4,2
+126,52,2,Rua Major Dantas Cortez,São Paulo,398000,Vila Gustavo,false,Apartamento,1,1
+127,147,3,Rua Pedro Doll,São Paulo,1100000,Santana,false,Apartamento,4,4
+128,185,3,Rua Teixeira de Melo,São Paulo,890000,Tatuapé,false,Apartamento,5,2
+129,62,2,Rua Elvira de Bortole,São Paulo,345000,Vila Gustavo,false,Apartamento,1,0
+130,79,2,Rua General José de Almeida Botelho,São Paulo,298000,Mandaqui,false,Apartamento,2,1
+131,67,2,Avenida Marginal Direita Anchieta,São Paulo,300000,Sacomã,false,Apartamento,1,1
+132,62,2,Rua João de Laet,São Paulo,350000,Mandaqui,false,Apartamento,1,0
+133,107,2,Rua Bernardo Sabadini,São Paulo,370000,Vila Roque,false,Casa,1,1
+134,50,2,Rua Anny,São Paulo,255000,São João Clímaco,false,Apartamento,1,1
+135,90,2,Avenida Goiás,São Caetano do Sul,339200,Centro,false,Apartamento,2,1
+136,54,1,Praça Marechal Deodoro,São Paulo,290000,Barra Funda,false,Apartamento,1,0
+137,60,1,Rua Doutor Olavo Egídio,São Paulo,650000,Santana,false,Apartamento,2,0
+138,55,2,Rua João de Laet,São Paulo,340000,Mandaqui,false,Apartamento,2,2
+139,50,2,Rua Vergueiro,São Paulo,350000,Vila das Mercês,false,Apartamento,1,1
+140,50,1,Rua da Consolação,São Paulo,430000,Consolação,false,Apartamento,1,1
+141,120,2,Rua Martins Bonilha,São Paulo,840000,Mooca,false,Casa,2,2
+142,61,2,Rua Outeiro da Cruz,São Paulo,401000,Água Fria,false,Apartamento,1,1
+143,59,2,Rua Professor José Soares de Mello,São Paulo,260000,Vila Nova Cachoeirinha,false,Apartamento,1,1
+144,120,5,Avenida Hélio Lobo,São Paulo,800000,Jabaquara,false,Casa,3,0
+145,82,2,Avenida Júlio Buono,São Paulo,370000,Jardim Brasil ,false,Apartamento,1,1
+146,57,2,Rua Cônego Vicente Miguel Marino,São Paulo,520000,Bom Retiro,false,Apartamento,2,1
+147,78,3,Rua Marquês de Maricá,São Paulo,420000,Sacomã,false,Apartamento,2,2
+148,50,2,Rua Gonçalo da Cunha,São Paulo,426000,Chácara Inglesa,false,Apartamento,1,1
+149,74,2,Rua dos Patriotas,São Paulo,350000,Ipiranga,false,Apartamento,1,0
+150,140,2,Rua Iaci,São Paulo,349000,Vila Constança ,false,Casa,1,4
+151,100,2,Rua Conselheiro Brotero,São Paulo,899000,Santa Cecília,false,Apartamento,1,0
+152,65,2,Rua Capricho,São Paulo,420000,Vila Gustavo,false,Apartamento,1,2
+153,50,2,Rua Thomaz Antônio Villani,São Paulo,310000,Vila Santa Maria,false,Apartamento,1,1
+154,57,2,Rua Gomes Cardim,São Paulo,366000,Mooca,false,Apartamento,1,1
+155,63,3,Rua Marquês de Lages,São Paulo,318000,Vila das Mercês,false,Apartamento,1,0
+156,55,2,Rua Ocarina,São Paulo,420000,Jabaquara,false,Apartamento,2,1
+157,107,2,Avenida Nova Cantareira,São Paulo,583000,Tucuruvi,false,Apartamento,2,1
+158,51,2,Rua das Cobeias,São Paulo,370000,Vila Prudente,false,Apartamento,1,1
+159,75,2,Rua Voluntários da Pátria,São Paulo,650000,Santana,false,Apartamento,1,0
+160,83,3,Rua Ivaí,São Paulo,580000,Tatuapé,false,Apartamento,3,0
+161,320,4,Rua Pascal,São Paulo,2700000,Brooklin,false,Apartamento,5,4
+162,72,1,Rua Caio Prado,São Paulo,950000,Consolação,false,StudioOuKitchenette,1,1
+163,59,2,Rua Borges,São Paulo,340000,Vila Gustavo,false,Apartamento,1,1
+164,85,2,Rua Padre Adelino,São Paulo,670000,Belém,false,Apartamento,1,2
+165,240,4,Rua Safira,São Paulo,1700000,Aclimação,false,Apartamento,3,3
+166,91,2,Rua Pantojo,São Paulo,999000,Jardim Anália Franco,true,Apartamento,3,0
+167,73,1,Rua Joaquim Carlos,São Paulo,300000,Brás,false,Apartamento,1,0
+168,101,3,Rua Harmonia,São Paulo,1250000,Vila Madalena,false,Apartamento,3,2
+169,97,3,Rua Ana Salete,São Paulo,530000,Mandaqui,false,Apartamento,2,2
+170,94,2,Avenida Jabaquara,São Paulo,616000,Chácara Inglesa,false,Apartamento,2,1
+171,69,2,Rua Domingos Fasolari,São Paulo,660000,Casa Verde,true,Apartamento,2,1
+172,86,2,Avenida Lacerda Franco,São Paulo,570000,Cambuci,true,Apartamento,2,1
+173,62,1,Praça João Correa Lemos,São Paulo,345000,Freguesia do Ó,false,Apartamento,1,1
+174,138,3,Rua Cardoso de Almeida,São Paulo,1143000,Perdizes,false,Apartamento,2,2
+175,142,3,Alameda Barão de Limeira,São Paulo,650000,Centro,false,Apartamento,2,0
+176,69,2,Rua Domingos Fasolari,São Paulo,660000,Casa Verde,false,Apartamento,2,1
+177,116,2,Rua do Estilo Barroco,São Paulo,700000,Chácara Santo Antonio,false,Apartamento,2,1
+178,76,2,Avenida Aratãs,São Paulo,690000,Moema,true,Apartamento,2,1
+179,70,3,Avenida Padre Arlindo Vieira,São Paulo,380000,Jardim Santa Emília,false,Apartamento,1,1
+180,69,3,Rua Marquês de Lages,São Paulo,370000,Vila das Mercês,false,Apartamento,1,0
+181,106,2,Alameda Barão de Limeira,São Paulo,950000,Centro,false,Apartamento,2,0
+182,60,2,Rua Doutor Olavo Egídio,São Paulo,440000,Santana,false,Apartamento,1,1
+183,50,2,Rua Coronel Cabrita,São Paulo,520000,Cambuci,false,Apartamento,1,2
+184,100,3,Rua Henrique Schaumann,São Paulo,930000,Pinheiros,false,Apartamento,2,1
+185,62,2,Rua Rabêlo da Cruz,São Paulo,340000,Vila Gustavo,false,Apartamento,1,1
+186,97,2,Rua Tucuna,São Paulo,800000,Sumaré,false,Apartamento,1,0
+187,101,3,Rua Abílio Soares,São Paulo,1360000,Paraíso,false,Apartamento,3,1
+188,65,2,Rua Maracá,São Paulo,530000,Jabaquara,true,Apartamento,1,2
+189,61,2,Rua Caetano de Oliveira,São Paulo,320000,Cambuci,false,Apartamento,1,0
+190,92,2,Rua Doutor Homem de Melo,São Paulo,650000,Perdizes,false,Apartamento,2,1
+191,53,2,Rua George Chahestian,São Paulo,378000,Santana,false,Apartamento,1,1
+192,240,4,Rua Senhor do Monte,São Paulo,1089000,Mandaqui,false,Apartamento,4,4
+193,124,3,Rua do Imperador,São Paulo,1000000,Vila Guilherme,false,Apartamento,3,2
+194,76,2,Via Anchieta,São Paulo,290000,Vila das Mercês,false,Apartamento,1,0
+195,215,4,Rua Cinco de Julho,São Paulo,1500000,Bosque da Saúde,false,Casa,3,3
+196,150,2,Avenida Pedro Severino Júnior,São Paulo,540000,Jabaquara,false,Casa,1,2
+197,80,3,Avenida Lacerda Franco,São Paulo,800000,Cambuci,false,Apartamento,2,2
+198,62,2,Rua Gradau,São Paulo,385000,Vila Prudente,true,Apartamento,2,0
+199,200,3,Rua dos Franceses,São Paulo,1850000,Bela Vista,false,Apartamento,2,2
+200,145,4,Avenida Nove de Julho,São Paulo,650000,Bela Vista,true,Apartamento,2,0
+201,63,2,Rua Herbert Hoover,São Paulo,300000,Tucuruvi,true,Apartamento,2,0
+202,147,3,Rua Monsenhor Antônio Pepe,São Paulo,700000,Jabaquara,false,Casa,1,4
+203,67,3,Avenida Parada Pinto,São Paulo,440000,Mandaqui,false,Apartamento,2,2
+204,384,3,Rua Deputado Martinho Rodrigues,São Paulo,1170000,Santo Amaro ,false,Casa,1,4
+205,98,3,Rua da Independência,São Paulo,860000,Cambuci,false,Apartamento,4,2
+206,106,2,Rua Cruz de Malta,São Paulo,799100,Vila Gustavo,false,Apartamento,2,1
+207,78,3,Rua Jacofer,São Paulo,560000,Casa Verde,false,Apartamento,2,0
+208,62,2,Avenida Rio Branco,São Paulo,400000,Bom Retiro,false,Apartamento,1,0
+209,75,2,Rua Ibitirama,São Paulo,385000,Vila Prudente,false,Apartamento,2,0
+210,220,3,Rua Tobias Monteiro,São Paulo,1250000,Jabaquara,false,Casa,4,2
+211,89,2,Rua Filipe Camarão,São Paulo,880000,Tatuapé,true,Apartamento,2,2
+212,60,2,Rua Frei Melchior,São Paulo,370000,Água Fria,false,Apartamento,1,1
+213,250,3,Rua dos Maracujás,São Paulo,798000,Vila Mazzei,false,Casa,4,2
+214,160,4,Rua Cayowaá,São Paulo,1200000,Perdizes,false,Casa,5,2
+215,210,5,Rua Oscar da Silva Barata,São Paulo,940000,Bosque da Saúde,false,Casa,3,2
+216,340,4,Alameda dos Guaramomis,São Paulo,2700000,Moema,false,Apartamento,4,3
+217,65,2,Rua Álvaro de Carvalho,São Paulo,725000,Consolação,false,Apartamento,2,1
+218,90,2,Rua Iperoig,São Paulo,800000,Perdizes,false,Apartamento,3,1
+219,250,3,Rua Alves Cardoso,São Paulo,820000,Vila Maria ,false,Casa,4,6
+220,256,4,Rua Antônio Nadruz Dib,São Paulo,850000,Santana,false,Casa,4,0
+221,125,3,Rua Georgina de Albuquerque,São Paulo,630000,Jabaquara,false,Casa,3,2
+222,245,3,Rua Vladimir Jorge,São Paulo,1000000,Belém,false,Casa,6,2
+223,116,2,Rua Santa Virgínia,São Paulo,493000,Tatuapé,false,Casa,2,0
+224,180,3,Avenida Aratãs,São Paulo,1700000,Planalto Paulista,false,Casa,3,2
+225,270,3,Rua Guilhermina,São Paulo,1200000,Santana,true,Casa,4,4
+226,330,5,Rua Doutor Thirso Martins,São Paulo,2500000,Vila Mariana,false,Casa,3,3
+227,60,2,Rua Conselheiro Cotegipe,São Paulo,480000,Belém,false,Apartamento,2,0
+228,63,2,Avenida Júlio Buono,São Paulo,450000,Vila Ede,false,Apartamento,2,0
+229,220,3,Rua Padre Luciano,São Paulo,1250000,Água Fria,false,Casa,4,0
+230,81,2,Avenida Ministro Petrônio Portela,São Paulo,614000,Freguesia do Ó,false,Apartamento,2,1
+231,73,2,Rua Vigário Albernaz,São Paulo,520000,Bosque da Saúde,false,Apartamento,1,1
+232,350,3,Rua Jerônimo de Brito,São Paulo,700000,Vila Santista,false,Casa,3,6
+233,200,3,Rua Alfredo Pujol,São Paulo,1600000,Santana,false,Apartamento,4,3
+234,126,3,Avenida Coronel Sezefredo Fagundes,São Paulo,475000,Vila Mazzei,false,Casa,2,0
+235,260,3,Rua Guilhermina,São Paulo,770000,Santana,false,Casa,2,3
+236,96,3,Avenida Rebouças,São Paulo,900000,Pinheiros,false,Apartamento,2,1
+237,56,2,Avenida Boschetti,São Paulo,340000,Vila Ede,false,Apartamento,2,1
+238,65,3,Rua do Canal,São Paulo,400000,Vila Guilherme,false,Apartamento,2,1
+239,50,2,Rua Vergueiro,São Paulo,380000,Vila das Mercês,false,Apartamento,1,1
+240,70,3,Rua do Reno,São Paulo,550000,Vila das Mercês,false,Apartamento,2,2
+241,68,3,Rua Sousa Lima,São Paulo,689000,Barra Funda,false,Apartamento,2,1
+242,120,3,Rua Franco Paulista,São Paulo,685000,Água Fria,false,Apartamento,3,0
+243,60,2,Rua Salvador Pedroso,São Paulo,420000,Sacomã,true,Apartamento,1,1
+244,98,2,Avenida do Cursino,São Paulo,575000,Bosque da Saúde,false,Apartamento,2,1
+245,94,3,Rua Domiciano Leite Ribeiro,São Paulo,910000,Jabaquara,false,Apartamento,3,0
+246,76,2,Rua Barão do Bananal,São Paulo,930000,Vila Pompéia,false,Apartamento,2,2
+247,95,3,Rua Maracá,São Paulo,760000,Jabaquara,false,Apartamento,2,2
+248,59,2,Rua Piracema,São Paulo,450000,Santana,true,Apartamento,2,1
+249,132,3,Rua Guarani,São Paulo,745000,Bom Retiro,false,Apartamento,2,0
+250,126,3,Rua Manuel de Almeida,São Paulo,850000,Vila Guilherme,false,Apartamento,4,2
+251,86,3,Rua Pitangui,São Paulo,640000,Tatuapé,false,Apartamento,2,1
+252,110,3,Rua Manuel de Almeida,São Paulo,785000,Vila Guilherme,false,Apartamento,3,0
+253,200,3,Rua Belchior Paulo,São Paulo,500000,Santana,false,Casa,1,0
+254,117,2,Alameda Santos,São Paulo,865000,Paraíso,false,Apartamento,2,0
+255,170,3,Rua Márcio Mazzei,São Paulo,640000,Vila Mazzei,false,Casa,3,3
+256,111,3,Rua Agente Gomes,São Paulo,700000,Água Fria,false,Apartamento,2,1
+257,123,3,Rua Princesa Isabel,São Paulo,1890000,Brooklin,false,Apartamento,3,0
+258,270,3,Rua Ferreira de Almeida,São Paulo,1490000,Casa Verde,false,Casa,3,5
+259,230,4,Rua Agenor Gomes,São Paulo,1500000,Mandaqui,false,Casa,4,4
+260,90,2,Rua Silva Pinto,São Paulo,320000,Bom Retiro,false,Apartamento,2,0
+261,74,2,Rua Wanda Martin,São Paulo,380000,Vila Nova Cachoeirinha,false,Apartamento,1,1
+262,267,3,Rua Ministro Sinésio Rocha,São Paulo,1650000,Sumaré,false,Casa,3,3
+263,135,3,Rua Pamplona,São Paulo,1256000,Bela Vista,false,Apartamento,2,1
+264,117,2,Avenida Ipiranga,São Paulo,624250,Centro,false,Apartamento,2,0
+265,80,3,Rua Leonor Barbosa Rodrigues,São Paulo,490000,Casa Verde,false,Apartamento,2,2
+266,65,2,Rua Zanzibar,São Paulo,715000,Casa Verde,false,Apartamento,2,2
+267,140,1,Rua Bela Cintra,São Paulo,1750000,Jardim Paulista,false,Apartamento,3,1
+268,55,3,Rua Glicério,São Paulo,470000,Liberdade,false,Apartamento,2,1
+269,56,2,Alameda Jauaperi,São Paulo,670000,Moema,false,Apartamento,2,0
+270,125,3,Rua Amaro de Morais,São Paulo,742000,Vila Sabrina ,false,Casa,4,2
+271,180,3,Rua Antônio Madi,São Paulo,780000,Jabaquara,false,Casa,4,4
+272,108,2,Rua José Maria Lisboa,São Paulo,1200000,Jardim Paulista,false,Apartamento,3,1
+273,208,4,Rua Pontins,São Paulo,1830000,Santana,true,Apartamento,4,0
+274,86,3,Rua Pedrália,São Paulo,910000,Bosque da Saúde,false,Apartamento,2,2
+275,165,3,Rua Miguel Helou,São Paulo,620000,Freguesia do Ó,false,Casa,4,0
+276,80,2,Rua Doutor Alceu de Campos Rodrigues,São Paulo,890000,Vila Olímpia,false,Apartamento,1,1
+277,157,3,Rua Cajuru,São Paulo,1350000,Belém,false,Apartamento,4,3
+278,103,3,Avenida Ramalho Ortigão,São Paulo,900000,Bosque da Saúde,false,Apartamento,2,2
+279,88,3,Rua Taquara Branca,São Paulo,738000,Santana,false,Apartamento,2,2
+280,72,1,Rua Maria Paula,São Paulo,550000,Bela Vista,false,Apartamento,1,0
+281,152,4,Rua Maurício Semer,São Paulo,500000,Jardim Brasil ,false,Casa,4,3
+282,78,3,Rua Manuel Gaya,São Paulo,599000,Vila Mazzei,false,Apartamento,2,1
+283,81,3,Avenida Lacerda Franco,São Paulo,700000,Cambuci,false,Apartamento,2,1
+284,73,2,Rua Maracá,São Paulo,710000,Jabaquara,false,Apartamento,2,1
+285,154,4,Rua Francisca Júlia,São Paulo,1050000,Santana,false,Apartamento,5,0
+286,125,3,Rua Doutor Plínio Barreto,São Paulo,680000,Bela Vista,false,Apartamento,3,0
+287,129,3,Rua Comprida,São Paulo,550000,Vila Mazzei,false,CasaCondominio,3,3
+288,125,3,Rua Antônio Pereira de Sousa,São Paulo,720000,Santana,true,Apartamento,5,0
+289,98,2,Travessa Francisco Bibiano,São Paulo,800000,Vila Mariana,true,Casa,2,2
+290,300,6,Rua Cruz de Malta,São Paulo,745000,Vila Gustavo,false,Casa,6,4
+291,52,1,Rua Pedro Brasil Bandecchi,São Paulo,280000,Vila Nova Cachoeirinha,false,Apartamento,1,0
+292,125,2,Rua Doutor Albuquerque Lins,São Paulo,1260000,Santa Cecília,false,Apartamento,2,0
+293,96,2,Avenida Santo Amaro,São Paulo,540000,Moema,false,Apartamento,1,0
+294,60,2,Rua Vitorino Carmilo,São Paulo,647000,Bom Retiro,false,Apartamento,2,1
+295,440,5,Rua Camé,São Paulo,2200000,Mooca,false,Casa,4,8
+296,52,2,Rua Liestal,São Paulo,225000,Mandaqui,false,Apartamento,1,0
+297,70,1,Rua Nelly Pellegrino,São Caetano do Sul,570000,Oswaldo Cruz,false,Apartamento,2,1
+298,51,2,Rua Marquês de Lages,São Paulo,320000,Vila das Mercês,false,Apartamento,1,1
+299,105,3,Rua Sousa Lopes,São Paulo,595000,Mandaqui,false,Apartamento,2,0
+300,78,3,Rua Jacofer,São Paulo,579000,Casa Verde,false,Apartamento,2,0
+301,168,1,Rua Assungui,São Paulo,1600000,Bosque da Saúde,false,Apartamento,4,3
+302,200,3,Rua Doutor César Castiglioni Júnior,São Paulo,1100000,Casa Verde,false,Casa,3,3
+303,93,3,Alameda dos Nhambiquaras,São Paulo,980000,Moema,false,Apartamento,1,0
+304,139,2,Rua Fúlvio Morganti,São Paulo,900000,Mandaqui,false,Apartamento,3,2
+305,190,3,Rua Sebastião Domingues,São Paulo,550000,Jardim Santa Emília,false,Casa,3,2
+306,180,3,Rua Conde de Porto Alegre,São Paulo,1990000,Campo Belo,false,Apartamento,3,0
+307,93,3,Rua João Moura,São Paulo,1300000,Pinheiros,true,Apartamento,2,0
+308,65,2,Rua C,São Paulo,320000,Jardim Santa Emília,true,Apartamento,1,0
+309,85,3,Rua Assungui,São Paulo,890000,Bosque da Saúde,false,Apartamento,3,0
+310,122,3,Rua Cinamomos,São Paulo,490000,Vila Mazzei,false,CasaCondominio,1,2
+311,89,3,Rua Dona Maria Pera,São Paulo,830000,Saúde,false,Apartamento,3,2
+312,186,3,Avenida Paulista,São Paulo,2000000,Jardim Paulista,false,Apartamento,2,0
+313,109,3,Rua Ipiranga,São Paulo,1190000,Campo Belo,false,Apartamento,3,2
+314,120,3,Rua Donato Luongo,São Paulo,685000,Mandaqui,false,Casa,2,0
+315,150,3,Rua Jabaeté,São Paulo,1060000,Jardim Anália Franco,false,Casa,5,4
+316,260,4,Rua Voluntários da Pátria,São Paulo,1870000,Santana,false,Apartamento,6,4
+317,110,2,Rua Carnot,São Paulo,720000,Canindé,false,Apartamento,1,0
+318,105,3,Rua Galofre,São Paulo,1100000,Vila Mariana,false,Apartamento,2,2
+319,117,3,Rua Catulo da Paixão Cearense,São Paulo,820000,Saúde,false,Apartamento,4,3
+320,160,3,Rua das Tâmaras,São Paulo,800000,Vila Mascote,false,Casa,4,0
+321,79,2,Rua Brito Peixoto,São Paulo,520000,Freguesia do Ó,false,Apartamento,1,0
+322,83,3,Rua Jacirendi,São Paulo,599000,Tatuapé,false,Apartamento,2,0
+323,270,5,Rua Leandro Dupré,São Paulo,2500000,Chácara Inglesa,false,Casa,5,4
+324,75,3,Rua Simão Velho,São Paulo,600000,Freguesia do Ó,false,Apartamento,2,2
+325,72,3,Rua Professora Carolina Ribeiro,São Paulo,850000,Vila Mariana,false,Apartamento,1,2
+326,64,2,Rua Doutor Sérgio Meira,São Paulo,525000,Barra Funda,false,Apartamento,2,2
+327,78,2,Avenida Bosque da Saúde,São Paulo,930000,Saúde,false,Apartamento,2,2
+328,60,2,Rua José Kileber,São Paulo,350000,Casa Verde,false,Apartamento,1,1
+329,64,2,Rua José Buono,São Paulo,355000,Vila Constança ,true,Apartamento,2,0
+330,185,3,Rua Francisca Júlia,São Paulo,1890000,Santana,true,Apartamento,5,4
+331,71,2,Rua Ausônia,São Paulo,350000,Vila Mazzei,false,Apartamento,1,0
+332,244,3,Rua Aimberê,São Paulo,2100000,Perdizes,false,Apartamento,4,3
+333,140,3,Rua Diogo Bueno,São Paulo,580000,Casa Verde,false,CasaCondominio,3,3
+334,100,2,Praça Monteiro dos Santos,São Paulo,1100000,Vila Mariana,true,Apartamento,2,1
+335,57,2,Rua Jaci,São Paulo,565000,Chácara Inglesa,false,Apartamento,2,1
+336,200,3,Avenida Paes de Barros,São Paulo,720000,Mooca,false,Apartamento,4,2
+337,242,3,Rua Paulo de Avelar,São Paulo,1100000,Água Fria,true,Casa,4,4
+338,60,2,Rua da Mooca,São Paulo,550000,Mooca,true,Apartamento,2,0
+339,68,2,Avenida Álvaro Machado Pedrosa,São Paulo,390000,Água Fria,false,Apartamento,1,1
+340,200,3,Rua das Paisagens,São Paulo,680000,Freguesia do Ó,false,Casa,3,3
+341,69,2,Rua Heitor Penteado,São Paulo,564000,Vila Romana,false,Apartamento,2,0
+342,70,2,Rua Sérgio Tomás,São Paulo,698000,Bom Retiro,false,Apartamento,2,2
+343,298,3,Rua Alessandro Allori,São Paulo,1150000,Jardim Primavera,false,Casa,4,6
+344,105,3,Avenida da Aclimação,São Paulo,760000,Aclimação,false,Apartamento,2,0
+345,110,2,Rua Major Freire,São Paulo,1300000,Saúde,false,Apartamento,3,2
+346,174,3,Rua Dom Valverde,São Paulo,1690000,Ipiranga,false,Casa,4,2
+347,256,3,Rua Guabiju,São Paulo,850000,Tatuapé,false,Casa,1,3
+348,76,3,Rua Dom Bernardo Nogueira,São Paulo,580000,Bosque da Saúde,true,Apartamento,2,1
+349,132,2,Rua Doutor Rubens Meireles,São Paulo,1200000,Barra Funda,true,Apartamento,3,2
+350,136,3,Rua Voluntários da Pátria,São Paulo,1230000,Santana,false,Apartamento,3,2
+351,69,2,Rua Maria Antônia,São Paulo,500000,Higienópolis,false,Apartamento,1,0
+352,120,2,Rua Elias Gannam,São Paulo,500000,Casa Verde,false,Casa,3,2
+353,104,3,Avenida Tucuruvi,São Paulo,450000,Vila Mazzei,false,Apartamento,2,1
+354,202,3,Alameda dos Tupiniquins,São Paulo,1890000,Moema,false,Apartamento,4,3
+355,50,2,Rua Orfanato,São Paulo,260000,Vila Prudente,false,Apartamento,1,0
+356,69,2,Rua Abagiba,São Paulo,560000,Vila das Mercês,false,Apartamento,2,2
+357,136,2,Rua Mucuri,São Paulo,900000,Jabaquara,false,Apartamento,2,1
+358,192,3,Rua José Gonçalves Galeão,São Paulo,1850000,Jardim Avelino ,false,Apartamento,5,3
+359,240,3,Rua Ponte Nova,São Paulo,700000,Vila Ede,false,Casa,2,1
+360,71,2,Rua Oscar Cintra Gordinho,São Paulo,270000,Liberdade,false,Apartamento,1,0
+361,189,3,Rua Madre de Deus,São Paulo,1150000,Mooca,false,Apartamento,5,3
+362,50,2,Avenida Parada Pinto,São Paulo,280000,Mandaqui,false,Apartamento,1,1
+363,160,3,"Rua Joaquim Lima de Moraes, 43, Santo Amaro",São Paulo,1050000,Chácara Santo Antonio,false,Casa,2,2
+364,64,2,Rua Maratona,São Paulo,695000,Vila Mascote,false,Apartamento,2,1
+365,106,2,Rua Alcino Braga,São Paulo,1280000,Paraíso,false,Apartamento,3,1
+366,220,4,Rua Doutor Gabriel Galvanese Amato,São Paulo,950000,Mooca,true,Casa,3,8
+367,145,3,Rua Cardoso de Almeida,São Paulo,1350000,Perdizes,false,Apartamento,2,2
+368,150,3,Avenida Invernada,São Paulo,990000,Campo Belo,false,Apartamento,2,2
+369,291,3,Avenida Maestro Villa-lobos,São Paulo,1500000,Vila Gustavo,false,Casa,4,6
+370,68,3,Rua Natal,São Paulo,550000,Mooca,false,Apartamento,2,1
+371,90,2,Rua Alto de Montalegre,São Paulo,580000,Jardim Tavares,false,Casa,1,2
+372,70,3,Avenida Doutor Francisco Ranieri,São Paulo,570000,Santana,false,Apartamento,2,2
+373,279,4,Rua Barão de Jaceguai,São Paulo,2290000,Campo Belo,false,Apartamento,5,3
+374,60,2,Rua Comprida,São Paulo,369900,Vila Mazzei,false,CasaCondominio,2,1
+375,78,3,Rua do Imperador,São Paulo,647000,Vila Guilherme,false,Apartamento,2,2
+376,202,3,Rua Lydia Ferrari Magnoli,São Paulo,1400000,Jardim Avelino ,true,Apartamento,5,3
+377,100,3,Rua Tucuna,São Paulo,950000,Vila Pompéia,false,Apartamento,2,2
+378,133,4,Alameda das Boninas,São Paulo,1350000,Chácara Inglesa,false,Apartamento,2,2
+379,77,2,Rua Imbituba,São Paulo,905000,Vila Prudente,true,Apartamento,2,2
+380,149,3,Travessa Coronel Hélio Barbosa Caldas,São Paulo,670000,Vila Mazzei,false,Casa,4,2
+381,160,3,Rua Artur Thiré,São Paulo,1020000,Saúde,false,Casa,4,2
+382,90,2,Rua Hipódromo,São Paulo,400000,Brás,false,Apartamento,1,0
+383,156,3,Rua Santo Antônio,São Paulo,950000,Bela Vista,true,Apartamento,1,0
+384,52,2,Rua Bela Vista do Paraíso,São Paulo,350000,Freguesia do Ó,true,Apartamento,1,1
+385,69,2,Avenida Clavásio Alves da Silva,São Paulo,380000,Casa Verde,false,Apartamento,1,1
+386,180,3,Rua Oliveira Lima,São Paulo,1000000,Cambuci,false,Casa,2,2
+387,107,2,Rua Caracaxá,São Paulo,520000,Vila Gustavo,true,Casa,2,2
+388,98,3,Rua Calógero Calia,São Paulo,740000,Bosque da Saúde,false,Apartamento,2,2
+389,62,2,Rua Sara Bernhard,São Paulo,370000,Mooca,false,Apartamento,2,1
+390,250,3,Rua Miguel Roque,São Paulo,990000,Vila Roque,false,Casa,5,3
+391,83,2,Rua Lopes de Oliveira,São Paulo,480000,Barra Funda,false,Apartamento,1,0
+392,64,1,Rua Helena,São Paulo,860000,Vila Olímpia,false,Apartamento,2,1
+393,62,1,Rua Teodoro Sampaio,São Paulo,460000,Pinheiros,false,Apartamento,1,0
+394,67,2,Avenida Leonardo da Vinci,São Paulo,480000,Jabaquara,false,Apartamento,2,1
+395,86,2,Rua General Chagas Santos,São Paulo,540000,Bosque da Saúde,false,Apartamento,2,1
+396,65,2,Rua Doutor Nicolau Alberto Defina,São Paulo,220000,Bosque da Saúde,false,Apartamento,1,0
+397,99,3,Avenida Paes de Barros,São Paulo,750000,Mooca,false,Apartamento,4,2
+398,100,3,Rua Bresser,São Paulo,380000,Brás,false,Apartamento,2,0
+399,82,2,Avenida Dom Pedro I,São Paulo,430000,Cambuci,false,Apartamento,2,1
+400,70,3,Avenida Daniel Malettini,São Paulo,390000,Mandaqui,false,Apartamento,2,2
+401,55,2,Rua das Cobeias,São Paulo,360000,Vila Prudente,false,Apartamento,1,1
+402,50,2,Rua Marcos Portugal,São Paulo,382980,Bosque da Saúde,false,Apartamento,1,1
+403,67,2,Rua Ibitirama,São Paulo,345000,Vila Prudente,false,Apartamento,2,1
+404,130,3,Praça Almeida Júnior,São Paulo,550000,Liberdade,false,Apartamento,2,0
+405,69,3,Rua Nossa Senhora da Saude,São Paulo,550000,Vila das Mercês,false,Apartamento,2,1
+406,90,3,Rua Sebastião Paes,São Paulo,750000,Campo Belo,false,Apartamento,2,1
+407,65,2,Rua Visconde de Magé,São Paulo,380000,Sacomã,false,Casa,2,0
+408,134,3,Alameda Campinas,São Paulo,1350000,Jardim Paulista,false,Apartamento,3,2
+409,248,4,Rua Paulo Orozimbo,São Paulo,1850000,Aclimação,false,Apartamento,4,4
+410,186,4,Rua Frei Rolim,São Paulo,950000,Bosque da Saúde,false,Apartamento,3,4
+411,86,2,Rua Voluntários da Pátria,São Paulo,580000,Santana,false,Apartamento,1,1
+412,115,3,Rua Otávio Nébias,São Paulo,1200000,Paraíso,false,Apartamento,2,1
+413,202,4,Rua Jacques Félix,São Paulo,2650000,Vila Nova Conceição,true,Apartamento,3,2
+414,220,3,Rua Traipu,São Paulo,1950000,Perdizes,false,Apartamento,4,4
+415,116,2,Avenida Jurucê,São Paulo,1170000,Moema,false,Apartamento,3,2
+416,80,3,Alameda Jauaperi,São Paulo,855000,Moema,false,Apartamento,3,1
+417,142,4,Rua Doutor Veiga Filho,São Paulo,2200000,Higienópolis,false,Apartamento,4,5
+418,115,3,Alameda Jaú,São Paulo,1600000,Jardim Paulista,false,Apartamento,2,2
+419,248,4,Rua Maranhão,São Paulo,2350000,Higienópolis,false,Apartamento,3,2
+420,338,3,Alameda Aicás,São Paulo,2800000,Moema,false,Apartamento,5,4
+421,58,1,Rua Fernão Dias,São Paulo,650000,Pinheiros,false,Apartamento,2,1
+422,131,3,Rua Antônio de Macedo Soares,São Paulo,1395000,Campo Belo,false,Apartamento,3,2
+423,118,3,Rua Afonso de Freitas,São Paulo,1250000,Paraíso,false,Apartamento,3,2
+424,210,4,Rua Otávio Nébias,São Paulo,2900000,Paraíso,false,Apartamento,4,4
+425,127,3,Rua Marselhesa,São Paulo,1200000,Vila Clementino,false,Apartamento,2,2
+426,52,1,Rua Jaguaribe,São Paulo,360000,Santa Cecília,false,Apartamento,1,0
+427,85,3,Rua Cristóvão Pereira,São Paulo,699000,Campo Belo,false,Apartamento,2,2
+428,120,4,Rua Barão do Triunfo,São Paulo,1300000,Brooklin,false,Apartamento,3,2
+429,190,2,Avenida Higienópolis,São Paulo,1700000,Higienópolis,false,Apartamento,3,1
+430,57,2,Rua Guinle,São Paulo,400000,Cambuci,false,Apartamento,2,1
+431,315,4,Rua Maranhão,São Paulo,2200000,Higienópolis,false,Apartamento,6,4
+432,174,3,Alameda Lorena,São Paulo,2180000,Jardim Paulista,false,Apartamento,3,1
+433,145,3,Rua Conselheiro Brotero,São Paulo,1080000,Santa Cecília,false,Apartamento,3,1
+434,139,2,Avenida Brigadeiro Luís Antônio,São Paulo,901000,Paraíso,false,Apartamento,2,1
+435,73,3,Rua Elisiário,São Paulo,550000,Tatuapé,false,Apartamento,1,2
+436,104,3,Rua Cubatão,São Paulo,640000,Vila Mariana,false,Apartamento,1,0
+437,136,2,Rua Barão do Triunfo,São Paulo,1300000,Brooklin,false,Apartamento,2,1
+438,60,2,Rua Cauré,São Paulo,340000,Vila Mazzei,false,Apartamento,2,1
+439,330,4,Rua Doutor Albuquerque Lins,São Paulo,2480000,Santa Cecília,false,Apartamento,5,4
+440,75,2,Avenida Casemiro da Rocha,São Paulo,561800,Chácara Inglesa,false,Apartamento,2,0
+441,117,3,Rua Sampaio Viana,São Paulo,1230000,Paraíso,false,Apartamento,3,2
+442,186,3,Praça Ituzaingo,São Paulo,1696000,Jardim Anália Franco,false,Apartamento,5,4
+443,160,3,Rua Cardoso de Almeida,São Paulo,1500000,Perdizes,false,Apartamento,2,2
+444,104,3,Rua Oásis,São Paulo,800000,Jabaquara,false,CasaCondominio,3,2
+445,121,3,Rua Freire de Andrade,São Paulo,1200000,Jardim Anália Franco,false,Apartamento,3,2
+446,190,3,Rua Padre Leão Peruche,São Paulo,880000,Vila Mazzei,false,Casa,4,4
+447,170,3,Rua Baunilhas,São Paulo,779000,Vila Prudente,false,Casa,3,2
+448,200,4,Avenida Bandeirantes do Sul,São Paulo,630000,Vila Maria ,false,Casa,2,2
+449,82,3,Rua Bárbara Heliodora,São Paulo,750000,Vila Pompéia,false,Apartamento,2,1
+450,82,3,Rua Dona Gabriela,São Paulo,670000,Água Fria,false,Apartamento,2,2
+451,80,2,Rua Fradique Coutinho,São Paulo,1000000,Pinheiros,false,Apartamento,2,1
+452,70,2,Rua Conselheiro Nébias,São Paulo,660000,Bom Retiro,false,Apartamento,2,1
+453,150,3,Rua Viamão,São Paulo,800000,Vila Maria ,false,Casa,4,2
+454,120,3,Rua Banco das Palmas,São Paulo,800000,Santana,false,Apartamento,3,1
+455,67,3,Rua Alexandre Levi,São Paulo,410000,Cambuci,false,Apartamento,3,1
+456,400,1,Rua Alberto Leal,São Paulo,1800000,Jabaquara,false,Casa,2,2
+457,65,2,Rua Perrella,São Caetano do Sul,510000,Centro,true,Apartamento,2,1
+458,120,2,Rua Frei Caneca,São Paulo,750000,Consolação,false,Apartamento,2,1
+459,70,3,Avenida Fagundes Filho,São Paulo,710000,Saúde,false,Apartamento,2,2
+460,345,4,Rua Maranhão,São Paulo,2100000,Higienópolis,false,Apartamento,2,2
+461,68,2,Rua Barão de Ladário,São Paulo,400000,Brás,false,Apartamento,1,2
+462,93,2,Rua Pereira da Nóbrega,São Paulo,955000,Cambuci,true,Apartamento,2,2
+463,55,1,Alameda dos Jurupis,São Paulo,567000,Moema,true,Apartamento,1,1
+464,150,4,Rua Orindiúva,São Paulo,1200000,Vila Maria ,false,Apartamento,5,2
+465,58,2,Rua Major Freire,São Paulo,640000,Saúde,false,Apartamento,2,2
+466,66,2,Rua Tuim,São Paulo,1100000,Moema,true,Apartamento,2,2
+467,185,3,Rua Batataes,São Paulo,2650000,Jardim Paulista,false,Apartamento,2,4
+468,70,3,Avenida Fagundes Filho,São Paulo,680000,Saúde,false,Apartamento,2,1
+469,90,3,Avenida Doutor Francisco Ranieri,São Paulo,600000,Santana,false,Apartamento,3,2
+470,187,3,Rua Belisário Campanha,São Paulo,860000,Casa Verde,false,Casa,5,3
+471,126,3,Rua Bento Manuel,São Paulo,850000,Jardim Anália Franco,false,Apartamento,2,2
+472,120,3,Rua Ministro Ferreira Alves,São Paulo,1050000,Vila Pompéia,false,Apartamento,2,2
+473,110,3,Rua Pantojo,São Paulo,700000,Jardim Anália Franco,false,Apartamento,2,2
+474,110,3,Rua Pascal,São Paulo,1100000,Brooklin,false,Apartamento,2,2
+475,55,2,Rua Ouro Branco,São Paulo,810000,Jardim Paulista,false,Apartamento,2,0
+476,130,3,Rua Itacema,São Paulo,1700000,Itaim Bibi,false,Apartamento,2,2
+477,200,4,Rua Mártires Armênios,São Paulo,550000,Tucuruvi,false,CasaCondominio,3,2
+478,123,3,Rua Itaici,São Paulo,855000,Santana,false,Apartamento,3,2
+479,107,3,Rua Sapucaia,São Paulo,930000,Mooca,false,Apartamento,4,2
+480,89,3,Rua Cônego Antônio Lessa,São Paulo,650000,Mooca,false,Apartamento,3,2
+481,120,3,Rua Barbaquá,São Paulo,550000,Vila Constança ,false,Casa,3,2
+482,155,2,Rua Moreira de Vasconcelos,São Paulo,500000,Vila Maria ,false,Casa,2,2
+483,120,3,R. Itapicuru,São Paulo,1081000,Perdizes,false,Apartamento,2,1
+484,449,3,Rua Leandro de Carvalho,São Paulo,920000,Cambuci,false,Casa,3,1
+485,92,2,Rua Fábia,São Paulo,1007000,Vila Romana,false,Apartamento,3,2
+486,117,3,Rua dos Caetes,São Paulo,1272000,Sumaré,false,Apartamento,2,1
+487,101,2,Rua Patápio Silva,São Paulo,950000,Vila Madalena,false,Apartamento,2,1
+488,105,3,Rua Girassol,São Paulo,1050000,Vila Madalena,false,Apartamento,3,1
+489,125,3,Rua Lincoln Albuquerque,São Paulo,1600000,Perdizes,false,Apartamento,3,2
+490,89,2,Rua Calógero Calia,São Paulo,640000,Bosque da Saúde,false,Apartamento,2,2
+491,117,2,Rua Itapicuru,São Paulo,1400000,Perdizes,false,Apartamento,2,0
+492,186,3,Avenida Brigadeiro Luís Antônio,São Paulo,1600000,Paraíso,true,Apartamento,2,0
+493,103,3,Rua Desembargador do Vale,São Paulo,940000,Vila Pompéia,false,Apartamento,2,2
+494,250,3,Avenida Angélica,São Paulo,1550000,Higienópolis,false,Apartamento,4,1
+495,192,3,Rua São Bernardo,São Paulo,639000,Tatuapé,false,Casa,3,2
+496,230,4,Rua Bartira,São Paulo,1490000,Perdizes,false,Apartamento,3,1
+497,190,3,Rua Pamplona,São Paulo,2130000,Bela Vista,true,Apartamento,2,0
+498,138,3,Rua Getúlio Soares da Rocha,São Paulo,950000,Brooklin,false,Apartamento,2,0
+499,230,3,Rua Urbanizadora,São Paulo,2500000,Sumaré,false,Apartamento,4,3
+500,182,3,Rua José Gonçalves Gomide,São Paulo,1200000,Vila Guilherme,false,Apartamento,5,3
+501,80,3,Rua Teodoro de Beaurepaire,São Paulo,750000,Ipiranga,false,Apartamento,2,2
+502,90,3,Rua Eça de Queiroz,São Paulo,700000,Vila Mariana,false,Apartamento,1,1
+503,74,3,Rua C,São Paulo,410000,Jardim Santa Emília,true,Apartamento,2,2
+504,98,3,Rua Neves de Carvalho,São Paulo,775000,Bom Retiro,false,Apartamento,3,2
+505,74,2,Rua Rio da Prata,São Paulo,850000,Brooklin,false,Casa,1,1
+506,220,3,Rua Doutor Nogueira Martins,São Paulo,2200000,Saúde,false,Apartamento,4,3
+507,230,4,"R. Cincinato Braga - Bela Vista, São Paulo - Sp, 01323-020, Brasil",São Paulo,2000000,Bela Vista,false,Apartamento,4,2
+508,111,4,Rua Paulo de Avelar,São Paulo,1180000,Água Fria,true,Apartamento,3,2
+509,250,4,Rua Afonso Milliet,São Paulo,1500000,Belém,false,Casa,5,2
+510,280,4,Rua Voluntários da Pátria,São Paulo,2300000,Santana,false,Apartamento,6,4
+511,59,2,Avenida Júlio Buono,São Paulo,350000,Vila Guilherme,false,Apartamento,1,1
+512,86,2,Rua Henrique Braglia,São Paulo,750000,Água Fria,false,Apartamento,3,2
+513,77,2,Rua General Jardim,São Paulo,504000,Santa Cecília,true,Apartamento,1,0
+514,125,3,Rua da Graça,São Paulo,430000,Bom Retiro,false,Apartamento,1,1
+515,65,3,Rua Bueno de Andrade,São Paulo,700000,Aclimação,false,Apartamento,1,1
+516,168,3,Rua Cocáis,São Paulo,700000,Jabaquara,false,Casa,4,2
+517,200,4,Rua São Vicente de Paula,São Paulo,1740000,Santa Cecília,true,Apartamento,4,2
+518,120,3,Rua Cotoxó,São Paulo,950000,Vila Pompéia,false,Apartamento,3,2
+519,101,3,Rua Guiratinga,São Paulo,850000,Chácara Inglesa,true,Apartamento,2,2
+520,123,3,Rua Diana,São Paulo,1295000,Vila Pompéia,false,Apartamento,2,2
+521,170,3,Rua Domingos da Fonseca,São Paulo,1000000,Mooca,false,Apartamento,4,3
+522,135,3,Rua Havaí,São Paulo,1450000,Sumaré,false,Apartamento,3,3
+523,140,3,Rua Acácio Vasconcelos,São Paulo,1080000,Jabaquara,false,Casa,5,2
+524,324,4,Rua Vichy,São Paulo,1272000,Casa Verde,false,Casa,2,3
+525,318,5,Rua Amaral Gama,São Paulo,1990000,Santana,false,CasaCondominio,4,5
+526,110,3,Avenida Higienópolis,São Paulo,1500000,Higienópolis,false,Apartamento,2,1
+527,191,3,Rua Sebastião Carneiro,São Paulo,1200000,Aclimação,false,Apartamento,2,2
+528,75,3,Rua Comendador Miguel Calfat,São Paulo,930000,Vila Olímpia,false,Apartamento,2,1
+529,134,3,Rua Carlos Sampaio,São Paulo,1440000,Bela Vista,true,Apartamento,4,1
+530,270,3,Rua Pernambuco,São Paulo,2590000,Higienópolis,true,Apartamento,3,2
+531,87,2,Rua Clemente Pereira,São Paulo,900000,Ipiranga,false,Apartamento,3,2
+532,100,3,Rua Acatunga,São Paulo,1166000,Campo Belo,false,Casa,4,1
+533,97,3,Rua Neves de Carvalho,São Paulo,800000,Bom Retiro,false,Apartamento,5,2
+534,323,4,Rua Saramenha,São Paulo,1495000,Sumaré,false,Casa,3,5
+535,140,2,Rua Vergueiro,São Paulo,1390000,Vila Mariana,true,Apartamento,4,2
+536,400,4,Avenida Irerê,São Paulo,2250000,Planalto Paulista,false,Casa,5,4
+537,200,3,Rua Manoel da Nóbrega,São Paulo,2400000,Paraíso,true,Apartamento,5,3
+538,280,5,Rua Batista Cepelos,São Paulo,2300000,Vila Mariana,true,Casa,4,1
+539,395,4,Rua Barra Mansa,São Paulo,1800000,Água Fria,false,Casa,7,6
+540,100,2,Rua Antônio Guganis,São Paulo,975000,Água Fria,false,Apartamento,3,3
+541,200,3,Rua General Gois Monteiro,São Paulo,2350000,Vila Romana,false,Casa,3,2
+542,136,3,Rua Doutor Veiga Filho,São Paulo,2200000,Higienópolis,false,Apartamento,3,2
+543,170,3,Alameda dos Arapanés,São Paulo,1900000,Moema,true,Apartamento,2,1
+544,146,3,Rua Professor Rodolfo São Tiago,São Paulo,1489361,Belém,false,Apartamento,5,3
+545,204,3,Rua Edson,São Paulo,1810000,Brooklin,false,Apartamento,3,3
+546,262,3,Avenida Belisário Pena,São Paulo,850000,Vila Maria ,false,Casa,4,8
+547,139,3,Rua Bela Cintra,São Paulo,1272000,Consolação,false,Apartamento,3,1
+548,144,3,Avenida Angélica,São Paulo,1350000,Santa Cecília,true,Apartamento,2,1
+549,108,3,Rua Paulo de Avelar,São Paulo,1250000,Água Fria,false,Apartamento,3,2
+550,440,3,R. Dr. Guilherme Cristoffel,São Paulo,2500000,Santana,false,Apartamento,6,4
+551,350,4,Rua Califórnia,São Paulo,2400000,Brooklin,false,Casa,2,5
+552,180,3,Rua Conde de Porto Alegre,São Paulo,2100000,Campo Belo,false,Apartamento,5,3
+553,262,4,Rua Rio Grande do Sul,São Caetano do Sul,1800000,Santo Antônio,true,Apartamento,3,3
+554,311,4,Rua Edson,São Paulo,1850000,Brooklin,true,Apartamento,4,4
+555,248,3,Rua João Luís Vives,São Paulo,1900000,Vila Mariana,false,Apartamento,4,4
+556,200,3,Rua Pedro Noel,São Paulo,1900000,Brooklin,false,Casa,3,4
+557,62,2,Rua Visconde de Parnaíba,São Paulo,480000,Mooca,false,Apartamento,1,1
+558,400,4,Rua José Logulo,São Paulo,1809000,Mooca,false,Casa,6,5
+559,95,3,Avenida Miruna,São Paulo,1330000,Moema,false,Apartamento,2,2
+560,320,3,Gama Cerqueira,São Paulo,1300000,Cambuci,false,Casa,2,2
+561,215,4,Rua Gil Eanes,São Paulo,1700000,Brooklin,false,Apartamento,4,3
+562,200,4,Rua Alfredo Norfini,São Paulo,1490000,Bosque da Saúde,false,Casa,4,2
+563,308,4,Rua Paracuê,São Paulo,2700000,Sumaré,false,Apartamento,5,2
+564,198,2,Rua Natingui,São Paulo,2555000,Vila Madalena,false,Apartamento,3,3
+565,400,4,Rua Maracaí,São Paulo,2600000,Aclimação,false,Casa,6,4
+566,140,4,Rua Francisco Justino de Azevedo,São Paulo,1090000,Aclimação,false,Apartamento,3,2
+567,120,3,Rua Teodoro Sampaio,São Paulo,1100000,Pinheiros,false,Apartamento,2,1
+568,276,3,Rua Doutor Gabriel dos Santos,São Paulo,2200000,Santa Cecília,false,Apartamento,3,1
+569,204,3,Rua Paraguaçu,São Paulo,1850000,Perdizes,false,Apartamento,2,2
+570,120,2,Alameda Ministro Rocha Azevedo,São Paulo,1600000,Jardim Paulista,false,Casa,2,0
+571,290,4,Avenida Iraí,São Paulo,1800000,Moema,true,Apartamento,4,2
+572,250,4,Rua Santo Adalberto,São Paulo,1850000,Água Fria,false,Casa,6,5
+573,99,2,Rua Domingos de Morais,São Paulo,1150000,Vila Mariana,false,Apartamento,3,1
+574,80,2,Rua Silas,São Paulo,1300000,Jardim Santa Emília,false,Apartamento,1,1
+575,65,2,Rua Visconde de Inhomerim,São Paulo,550000,Mooca,false,Apartamento,1,1
+576,160,2,Rua Miguel Helou,São Paulo,740000,Freguesia do Ó,false,Casa,3,2
+577,115,3,Rua Pires da Mota,São Paulo,799000,Aclimação,true,Apartamento,3,1
+578,55,2,Rua Surubim,São Paulo,2500000,Brooklin,false,Casa,1,0
+579,290,4,Avenida Pedro Bueno,São Paulo,1250000,Jabaquara,false,Casa,2,2
+580,300,3,Rua Vigário João Álvares,São Paulo,1180000,Cambuci,false,Casa,5,0
+581,156,4,Rua Francisco de Brito,São Paulo,850000,Tucuruvi,false,Apartamento,3,2
+582,200,3,Rua Aprazível,São Paulo,650000,Vila Nova Cachoeirinha,true,Casa,3,0
+583,207,3,Rua Doutor Guilherme Cristofel,São Paulo,1450000,Santana,true,Apartamento,5,4
+584,174,3,Avenida Doutor Altino Arantes,São Paulo,2850000,Vila Clementino,False,Apartamento,4,3
+585,57,2,Rua Mercedes Salano Castineiras,São Paulo,213000,Sacomã,False,Apartamento,1,1
+586,160,3,Rua São Carlos do Pinhal,São Paulo,1270000,Bela Vista,False,Apartamento,3,1
+587,240,3,Rua Serra de Juréa,São Paulo,1200000,Tatuapé,False,Casa,2,0
+588,280,4,Rua Iturama,São Paulo,1300000,Pari,False,Casa,3,4
+589,72,3,Rua Tapiraí,São Paulo,545000,Vila Guilherme,False,Apartamento,2,1
+590,150,3,Rua Batuíra,São Paulo,600000,Vila das Mercês,False,CasaCondominio,3,1
+591,127,3,Avenida Divino Salvador,São Paulo,800000,Moema,False,Apartamento,2,1
+592,150,3,Rua Aureliano Leal,São Paulo,1070000,Água Fria,False,Casa,2,2
+593,115,2,Rua Guararapes,São Paulo,1998000,Brooklin,True,Apartamento,2,2
+594,208,3,Rua Capital Federal,São Paulo,1980000,Sumaré,False,Apartamento,4,3
+595,350,3,Rua Avaí,São Paulo,1160000,Mooca,False,Casa,4,1
+596,126,2,Rua Laurindo Sbampato,São Paulo,700000,Vila Guilherme,False,Casa,1,2
+597,86,3,Avenida Senador Casimiro da Rocha,São Paulo,750000,Chácara Inglesa,False,Apartamento,2,1
+598,73,2,Rua dos Andradas,São Paulo,320000,Centro,False,Apartamento,1,0
+599,60,2,Rua Glicério,São Paulo,636000,Liberdade,False,Apartamento,2,1
+600,235,2,Rua Piauí,São Paulo,2300000,Higienópolis,False,Apartamento,4,0
+601,70,2,Alameda Eduardo Prado,São Paulo,430000,Bom Retiro,False,Apartamento,1,1
+602,95,3,Avenida Lacerda Franco,São Paulo,583000,Cambuci,False,Apartamento,1,0
+603,110,3,Rua Oliveira Alves,São Paulo,650000,Ipiranga,False,Apartamento,2,1
+604,90,3,Rua Sebastião Barbosa,São Paulo,590000,Jardim Anália Franco,False,Apartamento,2,2
+605,112,3,Pedro de Toledo,São Paulo,950000,Vila Clementino,False,Apartamento,2,1
+606,53,2,Rua Santo Amaro,São Paulo,450000,Bela Vista,False,Apartamento,2,1
+607,63,2,Rua Garção Tinoco,São Paulo,450000,Santana,False,Apartamento,1,1
+608,127,3,Rua Professora Carolina Ribeiro,São Paulo,1100000,Vila Mariana,False,Apartamento,2,2
+609,65,2,Rua Guaianases,São Paulo,400000,Centro,True,Apartamento,1,0
+610,100,3,Rua dos Democratas,São Paulo,650000,Saúde,False,Apartamento,1,1
+611,225,3,Rua Paraguaçu,São Paulo,2150000,Perdizes,False,Apartamento,4,3
+612,81,2,"Rua Alves Guimarães, 1163 - Pinheiros, São Paulo - Sp, Brasil",São Paulo,755000,Pinheiros,false,Apartamento,1,1
+613,72,2,Rua Doutor Cândido Espinheira,São Paulo,650000,Perdizes,False,Apartamento,1,1
+614,64,2,Rua do Imperador,São Paulo,650000,Vila Guilherme,True,Apartamento,2,2
+615,50,1,Alameda Campinas,São Paulo,390000,Jardim Paulista,True,StudioOuKitchenette,1,1
+616,59,2,Rua Teodureto Souto,São Paulo,630000,Cambuci,False,Apartamento,2,1
+617,213,3,Rua Simões Magro,São Paulo,850000,Jabaquara,True,Casa,4,2
+618,160,4,Avenida Água Fria,São Paulo,750000,Mandaqui,False,Casa,2,1
+619,176,3,Rua Conselheiro Pedro Luís,São Paulo,1100000,Santana,False,Casa,1,2
+620,53,2,Rua Jornalista Octávio Ribeiro - Pena Branca,São Paulo,234000,Vila Dionísia,false,Apartamento,1,1
+621,70,2,Rua Emboaçava,São Paulo,450000,Mooca,false,Apartamento,2,1
+622,60,3,Rua Ana de Barros,São Paulo,535000,Mandaqui,False,Apartamento,2,1
+623,135,2,Rua Matias Ferrão,São Paulo,1500000,Vila Maria ,False,Casa,2,4
+624,90,2,Rua São Benedito,São Paulo,1100000,Santo Amaro ,False,Apartamento,2,1
+625,98,3,Rua Doutor Augusto de Miranda,São Paulo,950000,Vila Pompéia,False,Apartamento,3,2
+626,134,4,Rua Coriolano,São Paulo,1900000,Vila Pompéia,True,Apartamento,3,3
+627,168,3,Rua Bela Cintra,São Paulo,2900000,Jardim Paulista,False,Apartamento,3,2
+628,65,2,Rua Pedroso Alvarenga,São Paulo,650000,Itaim Bibi,True,Apartamento,2,1
+629,220,4,Rua Bela Cintra,São Paulo,1850000,Jardim Paulista,False,Apartamento,3,2
+630,150,3,Rua Juventus,São Paulo,850000,Mooca,False,Apartamento,3,0
+631,53,2,Rua Ocarina,São Paulo,360000,Jabaquara,true,Apartamento,2,1
+632,66,3,Avenida Monte Celeste,São Paulo,425000,Vila Santa Maria,False,Apartamento,2,2
+633,63,2,Alameda dos Anapurus,São Paulo,760000,Moema,False,Apartamento,1,1
+634,65,2,Rua Catumbi,São Paulo,460000,Belém,False,Apartamento,2,1
+635,156,3,Rua Mário Augusto do Carmo,São Paulo,1000000,Jardim Avelino ,True,Apartamento,3,2
+636,105,3,Rua Vargem do Cedro,São Paulo,960000,Sumaré,False,Apartamento,2,2
+637,50,1,Rua Conselheiro Ramalho,São Paulo,350000,Bela Vista,False,Apartamento,1,1
+638,67,2,Avenida Jaçanã,São Paulo,580000,Vila Constança ,False,Apartamento,2,1
+639,250,3,Rua Esmeraldino Cavalcanti Torres,São Paulo,800000,Vila Ede,False,Casa,2,9
+640,55,2,Rua Aburá,São Paulo,245000,Sítio do Mandaqui,False,Apartamento,2,1
+641,160,3,Rua Itapicuru,São Paulo,980000,Perdizes,False,Apartamento,2,1
+642,357,3,Rua Engenheiro Silva Braga,São Paulo,1350000,Vila das Mercês,True,Casa,5,4
+643,68,2,Rua Piracuama,São Paulo,583000,Sumaré,False,Apartamento,1,1
+644,60,2,Avenida Susana,São Paulo,450000,Bosque da Saúde,False,Apartamento,2,1
+645,90,3,Rua Lino Coutinho,São Paulo,600000,Ipiranga,False,Apartamento,2,1
+646,110,3,Alameda dos Guaramomis,São Paulo,1200000,Moema,False,Apartamento,2,1
+647,70,3,Avenida Parada Pinto,São Paulo,420000,Mandaqui,False,Apartamento,2,1
+648,56,2,Rua Caio Prado,São Paulo,540000,Consolação,False,Apartamento,1,0
+649,72,3,Rua Vergueiro,São Paulo,350000,Bosque da Saúde,False,Apartamento,1,1
+650,202,3,Rua Canuto Saraiva,São Paulo,1250000,Mooca,False,Apartamento,4,4
+651,192,6,Rua Frei Durão,São Paulo,800000,Ipiranga,False,Casa,6,3
+652,113,3,Rua São Jorge,São Caetano do Sul,1150000,Cerâmica,False,Apartamento,5,2
+653,70,2,Rua Baguassu,São Paulo,565000,Jardim Anália Franco,False,Apartamento,2,2
+654,125,5,Rua Itajibá,São Paulo,850000,Chácara Inglesa,False,Casa,4,2
+655,127,3,Rua Tutóia,São Paulo,950000,Paraíso,False,Apartamento,2,1
+656,107,3,Rua Joaquim Ferreira,São Paulo,960000,Água Branca,False,Apartamento,2,2
+657,194,4,Alameda Lorena,São Paulo,2500000,Jardim Paulista,False,Apartamento,4,2
+658,80,2,Rua Francisco Dias Velho,São Paulo,750000,Brooklin,false,Casa,2,2
+659,50,2,Rua Domingos José Sapienza,São Paulo,350000,Vila Amália,True,Apartamento,1,1
+660,72,2,Rua Canhemborá,São Paulo,395000,Vila Gustavo,False,CasaCondominio,2,1
+661,105,3,Rua Lucrécia Maciel,São Paulo,950000,Jabaquara,True,Apartamento,3,2
+662,96,2,Rua Duílio,São Paulo,850000,Vila Romana,True,Apartamento,3,2
+663,210,2,"R. Sebastião Paes - Campo Belo, São Paulo - Sp, Brasil",São Paulo,2190000,Campo Belo,false,Apartamento,4,4
+664,124,12,Rua Marta,São Paulo,990000,Barra Funda,false,Apartamento,3,0
+665,64,2,Rua Oscar Cintra Gordinho,São Paulo,2280000,Liberdade,false,Apartamento,1,0
+666,260,3,Rua Franceses,São Paulo,2600000,Bela Vista,false,Apartamento,4,3
+667,72,3,Avenida General Leite de Castro,São Paulo,357000,Jardim Santa Emília,false,Apartamento,2,2
+668,230,4,Rua Jorge Monteiro,São Paulo,950000,Vila Mazzei,false,Casa,2,5
+669,200,3,Rua Gonçalo Marinho de Castro,São Paulo,1150000,Jardim Avelino ,false,Apartamento,5,3
+670,270,3,Rua Florinéia,São Paulo,900000,Água Fria,false,Casa,3,3
+671,70,3,Rua Cayowaá,São Paulo,988000,Perdizes,False,Apartamento,1,1
+672,96,3,Rua Lacedemônia,São Paulo,895000,Vila Mascote,false,Apartamento,3,2
+673,80,2,Avenida Jabaquara,São Paulo,550000,Saúde,false,Apartamento,2,0
+674,56,2,Avenida Itaboraí,São Paulo,420000,Chácara Inglesa,false,Apartamento,1,0
+675,55,2,Rua Glicério,São Paulo,480000,Liberdade,true,Apartamento,1,1
+676,144,3,Rua Joaquim Nabuco,São Paulo,865000,Campo Belo,false,Casa,3,2
+677,157,3,Rua Juventus,São Paulo,1000000,Mooca,true,Apartamento,3,1
+678,94,3,Rua Professor Dorival Dias Minhoto,São Paulo,840000,Santana,false,Apartamento,3,2
+679,62,2,Rua Nhu-guaçu,São Paulo,910000,Campo Belo,false,Apartamento,2,1
+680,97,3,Rua Ibitinga,São Paulo,960000,Mooca,false,Apartamento,3,2
+681,78,3,Rua Raul Pompéia,São Paulo,820000,Vila Pompéia,false,Apartamento,2,2
+682,250,3,Rua Simpatia,São Paulo,2000000,Vila Madalena,false,Casa,3,0
+683,400,3,Rua Correia de Lemos,São Paulo,1200000,Chácara Inglesa,false,Casa,5,0
+684,180,3,Alameda Jaú,São Paulo,2600000,Jardim Paulista,true,Apartamento,4,0
+685,136,2,Rua Natingui,São Paulo,1350000,Vila Madalena,false,Apartamento,3,3
+686,276,2,Rua Volta Redonda,São Paulo,2650000,Campo Belo,false,Apartamento,5,3
+687,160,4,Rua Sergipe,São Paulo,1890000,Higienópolis,false,Apartamento,4,2
+688,255,3,Rua Aimberê,São Paulo,2500000,Perdizes,false,Apartamento,4,5
+689,330,3,Rua Lima Verde,São Paulo,1350000,Vila Nova Cachoeirinha,false,Casa,5,0
+690,103,3,Avenida do Cursino,São Paulo,600000,Bosque da Saúde,false,Apartamento,2,1
+691,58,2,Avenida Jardim Japão,São Paulo,345000,Jardim Brasil ,false,Apartamento,2,1
+692,180,3,Rua Maratona,São Paulo,750000,Vila Mascote,false,Apartamento,2,3
+693,133,3,Rua Miragem,São Paulo,780000,Jardim Anália Franco,true,Apartamento,5,2
+694,106,3,Rua Voluntários da Pátria,São Paulo,950000,Santana,false,Apartamento,4,2
+695,300,3,Rua Acarape,São Paulo,1380000,Chácara Inglesa,false,Casa,4,2
+696,79,2,Avenida Angélica,São Paulo,855000,Higienópolis,False,Apartamento,1,1
+697,192,4,Rua Antônio Cantarella,São Paulo,1050000,Bosque da Saúde,False,Casa,6,4
+698,170,2,Avenida Maestro Villa-lobos,São Paulo,890000,Vila Gustavo,False,Casa,1,2
+699,200,3,Rua João Moura,São Paulo,1700000,Pinheiros,False,Apartamento,4,3
+700,115,3,Rua Doutor Jesuíno Maciel,São Paulo,1260000,Campo Belo,False,Apartamento,3,2
+701,60,3,Rua Domingos José Sapienza,São Paulo,399000,Vila Amália,False,Apartamento,2,0
+702,56,2,Rua Cônego Vicente Miguel Marino,São Paulo,620000,Barra Funda,False,Apartamento,1,1
+703,95,3,Rua Itaici,São Paulo,1100000,Santana,False,Apartamento,3,2
+704,98,3,Rua João Luís Vives,São Paulo,960000,Vila Mariana,False,Apartamento,4,2
+705,204,3,Rua Borges de Figueiredo,São Paulo,2150000,Mooca,True,Apartamento,4,4
+706,62,2,Rua Aristídes Lôbo,São Paulo,330000,Brás,false,Apartamento,1,1
+707,274,3,Rua Engenheiro César,São Paulo,1350000,Santana,False,Casa,5,7
+708,157,3,Rua das Catileias,São Paulo,699900,Vila Mazzei,True,Casa,3,2
+709,196,3,Rua Caçapava,São Paulo,2050000,Jardim Paulista,False,Apartamento,2,2
+710,63,2,Avenida Eusébio Matoso,São Paulo,1500000,Pinheiros,true,Apartamento,2,1
+711,54,2,Avenida Fagundes Filho,São Paulo,550000,Saúde,false,Apartamento,1,1
+712,180,4,Rua Caconde,São Paulo,2450000,Jardim Paulista,false,Apartamento,2,3
+713,280,4,Rua Manoel da Nóbrega,São Paulo,2100000,Paraíso,true,Apartamento,3,3
+714,108,3,Rua Pantojo,São Paulo,900000,Jardim Anália Franco,True,Apartamento,2,2
+715,117,3,Rua Domingos da Costa Mata,São Paulo,780000,Santana,False,Apartamento,2,3
+716,90,2,Avenida Nova Cantareira,São Paulo,450000,Tucuruvi,False,Apartamento,1,1
+717,112,3,Rua Cananéia,São Paulo,750000,Vila Prudente,False,Casa,2,2
+718,55,1,Avenida Horácio Lafer,São Paulo,1380000,Itaim Bibi,False,StudioOuKitchenette,1,1
+719,160,4,Rua Capitão Alberto Mendes Júnior,São Paulo,1300000,Água Fria,False,Apartamento,5,2
+720,330,5,Rua Barão de Juparaná,São Paulo,1600000,Vila Prudente,False,Casa,5,5
+721,110,3,Avenida Direitos Humanos,São Paulo,980000,Santana,False,Apartamento,3,2
+722,189,3,Rua Espírito Santo,São Paulo,1700000,Aclimação,False,Apartamento,4,3
+723,66,3,Avenida Monte Celeste,São Paulo,450000,Vila Santa Maria,False,Apartamento,2,2
+724,176,3,Rua Raul Pompéia,São Paulo,1350000,Vila Pompéia,false,Apartamento,2,2
+725,50,1,Avenida Rouxinol,São Paulo,420000,Moema,true,StudioOuKitchenette,1,1
+726,153,3,Rua Ribeiro de Barros,São Paulo,1800000,Vila Pompéia,False,Apartamento,2,3
+727,98,2,Avenida Doutor Cardoso de Melo,São Paulo,800000,Vila Olímpia,true,Apartamento,2,1
+728,278,2,Praça Presidente Jânio da Silva Quadros,São Paulo,650000,Vila Maria ,False,Casa,1,1
+729,113,3,Rua Alvorada,São Paulo,1180000,Vila Olímpia,False,Apartamento,3,2
+730,340,6,Rua Guararapes,São Paulo,2000000,Brooklin,false,Casa,4,0
+731,82,2,Rua Conselheiro Moreira de Barros,São Paulo,500000,Santana,False,Casa,1,0
+732,139,3,Rua Sousa Ramos,São Paulo,1350000,Vila Mariana,True,Apartamento,2,2
+733,105,2,Rua Backer,São Paulo,1200000,Cambuci,False,Apartamento,3,2
+734,400,3,Rua Batista do Carmo,São Paulo,1600000,Aclimação,False,Casa,4,1
+735,172,3,Avenida Jandira,São Paulo,1900000,Moema,False,Apartamento,5,3
+736,150,3,Rua São Vicente de Paula,São Paulo,1350000,Santa Cecília,False,Apartamento,3,2
+737,70,2,Avenida Caraurana,São Paulo,430000,Vila Mazzei,False,Casa,3,0
+738,144,2,Avenida Brigadeiro Luís Antônio,São Paulo,1400000,Paraíso,True,Apartamento,2,1
+739,50,1,Rua Fidêncio Ramos,São Paulo,950000,Vila Olímpia,false,Apartamento,1,1
+740,100,2,Rua Conselheiro Brotero,São Paulo,1050000,Santa Cecília,false,Apartamento,3,1
+741,100,2,Rua Doutor Brasilio Machado,São Paulo,880000,Santa Cecília,false,Apartamento,1,1
+742,80,3,Rua Lisboa,São Paulo,900000,Pinheiros,true,Apartamento,2,2
+743,145,3,Rua Itacema,São Paulo,1750000,Itaim Bibi,False,Apartamento,2,1
+744,170,3,Rua Xavier de Almeida,São Paulo,1400000,Ipiranga,true,Apartamento,5,3
+745,240,3,Rua Cisplatina,São Paulo,2700000,Ipiranga,false,Apartamento,4,5
+746,280,4,Rua Copacabana,São Paulo,999000,Santana,False,Apartamento,4,4
+747,98,3,Rua Kiel,São Paulo,840000,Casa Verde,true,Apartamento,2,2
+748,204,4,Rua Marcos Fernandes,São Paulo,1100000,Bosque da Saúde,false,Apartamento,3,3
+749,240,3,Rua Rio de Janeiro,São Paulo,2500000,Higienópolis,false,Apartamento,2,2
+750,200,3,Rua Matos Cordeiro,São Paulo,1290000,Casa Verde,false,Casa,5,5
+751,230,4,R. República do Iraque,São Paulo,1800000,Campo Belo,true,Casa,5,3
+752,200,3,Rua Doutor Gabriel dos Santos,São Paulo,2550000,Santa Cecília,false,Apartamento,4,3
+753,126,3,Rua Maria Curupaiti,São Paulo,850000,Casa Verde,false,Apartamento,4,3
+754,180,3,Rua Jardim Francisco Marcos,São Paulo,950000,Bela Vista,false,Casa,3,0
+755,220,2,Rua Isabel Maria Garcia Parra,São Paulo,1000000,Santana,false,Casa,1,0
+756,65,3,Rua Francisco Justino de Azevedo,São Paulo,600000,Aclimação,false,Apartamento,2,2
+757,163,3,Rua Dr. Mario Cardin,São Paulo,1590000,Vila Mariana,False,Apartamento,5,2
+758,75,3,Avenida Zumkeller,São Paulo,480000,Mandaqui,false,Apartamento,2,3
+759,80,3,Dom Mateus,São Paulo,380000,Cambuci,False,Apartamento,2,1
+760,100,3,Rua Bagé,São Paulo,900000,Vila Mariana,False,Apartamento,2,1
+761,69,2,Rua Vergueiro,São Paulo,424000,Vila das Mercês,False,Apartamento,2,1
+762,120,3,Rua Doutor Albuquerque Lins,São Paulo,1300000,Santa Cecília,True,Apartamento,2,1
+763,140,3,Avenida Nazaré,São Paulo,1596000,Ipiranga,False,Apartamento,5,3
+764,154,3,Rua Manuel da Nóbrega,São Paulo,1200000,Paraíso,False,Apartamento,2,0
+765,53,2,Rua Itza,São Paulo,310000,Vila Constança ,false,Apartamento,2,1
+766,64,2,Rua Paris,São Paulo,876000,Sumaré,true,Apartamento,2,0
+767,152,4,Rua Tucuna,São Paulo,1500000,Vila Pompéia,false,Apartamento,3,2
+768,147,3,Rua Maratona,São Paulo,1800000,Vila Mascote,True,Apartamento,4,3
+769,220,3,Rua Adolfo D&#39;ávila,São Paulo,980000,Jardim Anália Franco,false,Casa,1,4
+770,62,2,Rua Dona Antônia de Queirós,São Paulo,1100000,Higienópolis,True,Apartamento,2,1
+771,150,3,Rua Dona Gabriela,São Paulo,760000,Água Fria,False,Apartamento,2,2
+772,210,3,Rua Coronel Oscar Porto,São Paulo,2400000,Paraíso,true,Apartamento,3,2
+773,254,3,Rua Jurupeba,São Paulo,830000,Jabaquara,false,Casa,4,2
+774,63,3,Rua Alexandre Leví,São Paulo,420000,Cambuci,false,Apartamento,1,1
+775,112,2,Rua Tamarataca,São Paulo,420000,Mooca,True,Apartamento,2,0
+776,140,3,Rua Enguaçu,São Paulo,750000,Santana,False,Casa,3,3
+777,200,3,Rua Ana Tomásia de Jesus,São Paulo,940000,Bosque da Saúde,False,Casa,2,2
+778,192,3,Rua Haddock Lobo,São Paulo,1990000,Jardim Paulista,False,Apartamento,2,2
+779,51,1,Rua Joaquim Távora,São Paulo,720000,Vila Mariana,False,StudioOuKitchenette,2,0
+780,220,4,Rua Constantino de Sousa,São Paulo,1800000,Campo Belo,False,Apartamento,4,3
+781,57,2,Rua Epaminondas Melo do Amaral,São Paulo,345000,Sítio do Mandaqui,False,Apartamento,1,1
+782,225,4,Rua Angaturama,São Paulo,850000,Vila das Mercês,False,CasaCondominio,4,4
+783,50,2,Rodovia Anchieta,São Paulo,266500,Sacomã,False,Apartamento,1,1
+784,62,2,Rua Capitão Nascimento,São Paulo,370000,Vila Constança ,False,CasaCondominio,3,1
+785,92,3,Rua Bartolomeu Feio,São Paulo,690000,Brooklin,False,Apartamento,2,1
+786,170,3,Rua Coronel José Dionísio Gouvea,São Paulo,1100000,Vila Clementino,False,Casa,2,2
+787,60,1,Rua Juventus,São Paulo,446000,Mooca,false,Apartamento,1,1
+788,62,2,Rua Vinte E Oito de Julho,São Caetano do Sul,445000,Centro,False,Apartamento,1,1
+789,110,3,Rua Taquara Branca,São Paulo,750000,Santana,False,Apartamento,3,2
+790,140,3,Alameda Franca,São Paulo,1100000,Jardim Paulista,True,Apartamento,2,1
+791,100,3,Rua Tagipuru,São Paulo,650000,Barra Funda,False,Apartamento,2,2
+792,147,3,Rua Tucuna,São Paulo,1030000,Vila Pompéia,False,Apartamento,3,2
+793,64,2,Rua Clemente Ferreira,São Caetano do Sul,375000,Santo Antônio,False,Apartamento,1,1
+794,77,3,Rua Doutor Nicolau Alberto Defina,São Paulo,270000,Bosque da Saúde,False,Apartamento,1,0
+795,118,3,Rua Jerônima Dias,São Paulo,685000,Santana,False,Apartamento,4,2
+796,200,4,Rua Francisco Giuseppe Giordano,São Paulo,750000,Bosque da Saúde,False,Casa,2,5
+797,220,3,Rua Mangaíba,São Paulo,1200000,Água Fria,False,Casa,6,5
+798,140,3,Rua Voluntários da Pátria,São Paulo,720000,Santana,False,Apartamento,3,2
+799,280,4,Rua Ibirá,São Paulo,1600000,Mooca,False,Casa,4,4
+800,50,1,Alameda Lorena,São Paulo,750000,Jardim Paulista,True,Apartamento,2,2
+801,85,2,Rua do Piquete,São Paulo,454000,Ipiranga,False,Apartamento,1,1
+802,201,4,Avenida Pavão,São Paulo,2160000,Moema,False,Apartamento,5,3
+803,192,2,Avenida Nove de Julho,São Paulo,2500000,Itaim Bibi,True,Apartamento,3,1
+804,110,3,Avenida Lacerda Franco,São Paulo,1290000,Cambuci,False,Apartamento,2,2
+805,50,2,Avenida Padre Arlindo Vieira,São Paulo,280000,Vila das Mercês,False,Apartamento,1,1
+806,156,3,Rua Itambé,São Paulo,1300000,Higienópolis,False,Apartamento,2,1
+807,250,2,Rua Padre Raposo,São Paulo,850000,Mooca,False,Casa,3,2
+808,135,3,Avenida Doutor Altino Arantes,São Paulo,1200000,Vila Clementino,False,Casa,3,1
+809,120,4,Avenida Doutor Luis Rocha Miranda,São Paulo,585000,Jabaquara,False,Casa,2,2
+810,147,3,Rua Barão do Triunfo,São Paulo,1850000,Brooklin,False,Apartamento,4,3
+811,127,4,Rua João de Sousa Dias,São Paulo,1300000,Campo Belo,True,Apartamento,4,1
+812,104,2,Rua Comendador Sousa,São Paulo,870000,Água Branca,False,Casa,2,2
+813,152,3,Rua Barão do Triunfo,São Paulo,1290000,Brooklin,False,Apartamento,3,3
+814,112,2,Avenida Fagundes Filho,São Paulo,1200000,Saúde,False,Apartamento,2,0
+815,110,3,Rua Tapiraí,São Paulo,480000,Vila Ede,True,CasaCondominio,3,2
+816,107,3,Rua Cristiano Viana,São Paulo,1300000,Pinheiros,False,Apartamento,4,1
+817,96,3,Rua Garção Tinoco,São Paulo,730000,Santana,False,Apartamento,3,2
+818,120,2,Rua Baturité,São Paulo,750000,Aclimação,True,Apartamento,3,2
+819,117,3,Rua Inhambu,São Paulo,1190000,Moema,False,Apartamento,3,2
+820,57,2,Rua Vigário Albernaz,São Paulo,425000,Bosque da Saúde,False,Apartamento,2,1
+821,142,3,Rua Professora Heloísa Carneiro,São Paulo,1099000,Campo Belo,false,Casa,3,2
+822,65,2,Rua dos Democratas,São Paulo,487000,Saúde,False,Apartamento,2,1
+823,58,2,Rua Aburá,São Paulo,310000,Sítio do Mandaqui,False,Apartamento,2,1
+824,55,2,Avenida Parada Pinto,São Paulo,352000,Vila Nova Cachoeirinha,False,Apartamento,1,1
+825,120,3,Rua Harmonia,São Paulo,1300000,Vila Madalena,True,Apartamento,2,2
+826,123,2,Avenida Paes de Barros,São Paulo,600000,Mooca,False,Apartamento,1,0
+827,78,2,Rua José de Ibarra,São Paulo,490000,Mandaqui,False,Casa,3,1
+828,100,3,Rua Diana,São Paulo,910000,Perdizes,False,Apartamento,2,2
+829,160,4,Avenida Osvaldo Aranha,São Paulo,1100000,Bosque da Saúde,False,Apartamento,3,3
+830,170,3,Avenida Jurucê,São Paulo,2100000,Moema,False,Apartamento,4,2
+831,118,3,Rua Brasília,São Paulo,1950000,Itaim Bibi,False,Apartamento,4,3
+832,108,3,Rua Correia de Lemos,São Paulo,1380000,Chácara Inglesa,False,Apartamento,3,0
+833,176,3,Rua Barão do Triunfo,São Paulo,1290000,Brooklin,False,Apartamento,2,2
+834,170,4,Rua Angaturama,São Paulo,850000,Vila das Mercês,False,CasaCondominio,4,2
+835,52,2,Avenida Gustavo Adolfo,São Paulo,405000,Jardim Brasil ,False,Apartamento,1,1
+836,130,3,Rua Banco das Palmas,São Paulo,900000,Santana,False,Casa,2,1
+837,196,3,Avenida Conceição,São Paulo,700000,Vila Guilherme,False,Casa,2,1
+838,96,3,Rua Fábia,São Paulo,1060000,Vila Romana,False,Apartamento,4,2
+839,126,3,Rua Pará,São Paulo,1400000,Higienópolis,False,Apartamento,2,1
+840,91,2,Alameda Itu,São Paulo,1100000,Jardim Paulista,False,Apartamento,1,2
+841,141,3,Rua Campo Largo,São Paulo,800000,Mooca,False,Casa,4,3
+842,110,3,Rua Tomás Carvalhal,São Paulo,1200000,Paraíso,False,Apartamento,4,1
+843,180,2,Rua Carlos dos Santos,São Paulo,470000,Jardim Brasil ,False,Casa,2,2
+844,210,4,Rua Pintassilgo,São Paulo,2500000,Moema,False,Apartamento,4,4
+845,91,3,Rua Capitão Manuel Novaes,São Paulo,706500,Santana,false,Apartamento,3,2
+846,96,3,Av Onze de Junho,São Paulo,1200000,Vila Clementino,True,Apartamento,4,2
+847,230,3,Alameda dos Tupiniquins,São Paulo,2000000,Moema,False,Apartamento,4,3
+848,260,4,Rua Pedro Doll,São Paulo,1680000,Santana,False,Apartamento,6,3
+849,130,2,Rua Henrique Mazzei,São Paulo,530000,Vila Ede,False,Casa,2,1
+850,58,1,Avenida Santo Amaro,São Paulo,460000,Moema,False,Apartamento,1,0
+851,92,2,Avenida Rangel Pestana,São Paulo,600000,Brás,False,Apartamento,1,0
+852,102,3,Avenida Aratãs,São Paulo,1100000,Moema,false,Apartamento,3,2
+853,66,2,Rua Doutor Sabóia de Medeiros,São Paulo,595000,Vila Mariana,False,Apartamento,1,1
+854,53,1,Rua Antônio de Godói,São Paulo,350000,Centro,true,StudioOuKitchenette,1,0
+855,51,2,Avenida Marginal Esquerda Anchieta,São Paulo,252000,Sacomã,False,Apartamento,1,1
+856,67,1,Rua Cotoxó,São Paulo,550000,Vila Pompéia,False,Apartamento,1,1
+857,100,3,Rua Guiratinga,São Paulo,1300000,Chácara Inglesa,False,Apartamento,3,2
+858,86,2,Rua Rui Martins,São Paulo,380000,Mooca,True,Apartamento,1,1
+859,240,3,Rua Mário Eloy,São Paulo,950000,Mandaqui,false,Casa,3,2
+860,330,3,Rua Nicolau da Rocha Vita,São Paulo,2500000,Campo Belo,True,Casa,2,4
+861,200,3,Rua Vergel,São Paulo,750000,Belém,False,Casa,3,2
+862,179,3,Rua Cajuru,São Paulo,1800000,Belém,False,Apartamento,3,3
+863,57,2,Rua José Soriano de Sousa,São Paulo,290000,Vila Santista,False,Apartamento,1,1
+864,57,2,Rua José Soriano de Sousa,São Paulo,367000,Vila Santista,False,Apartamento,1,2
+865,53,2,Rua Duarte de Azevedo,São Paulo,373000,Santana,false,Apartamento,1,0
+866,57,3,Rua Alba,São Paulo,320000,Jabaquara,false,Apartamento,1,1
+867,64,2,Rua Coronel Diogo,São Paulo,789000,Cambuci,True,Apartamento,2,1
+868,65,2,Rua Santa Madalena,São Paulo,1480000,Bela Vista,false,Apartamento,2,1
+869,68,1,Avenida São Joao,São Paulo,270000,Santa Cecília,false,Apartamento,1,0
+870,107,3,Rua Sebastião Paes,São Paulo,1450000,Campo Belo,False,Apartamento,3,3
+871,67,3,Rua Domingos José Sapienza,São Paulo,300000,Vila Amália,false,Apartamento,1,1
+872,75,2,Rua João Rúbio,São Paulo,420000,Casa Verde Alta,false,Apartamento,2,2
+873,70,2,Rua Francisco Estácio Fortes,São Paulo,640000,Perdizes,False,Apartamento,2,1
+874,78,2,Avenida General Olímpio da Silveira,São Paulo,430000,Barra Funda,false,Apartamento,2,1
+875,85,3,Rua Professor Atílio Innocenti,São Paulo,1990000,Vila Olímpia,false,Apartamento,2,2
+876,84,3,Rua Antônio Marcondes,São Paulo,469000,Ipiranga,false,Apartamento,2,2
+877,90,3,Rua Guaratuba,São Paulo,750000,Jabaquara,false,Apartamento,4,2
+878,95,3,Rua Catumbi,São Paulo,865000,Belém,False,Apartamento,3,2
+879,94,3,Rua Javoraú,São Paulo,600000,Freguesia do Ó,False,Apartamento,3,2
+880,98,3,Rua Darzan,São Paulo,490000,Santana,False,Casa,3,2
+881,96,3,Rua Capitão Manuel Novaes,São Paulo,695000,Santana,false,Apartamento,2,0
+882,93,1,Rua Pascal,São Paulo,1100000,Campo Belo,False,Apartamento,1,1
+883,102,2,Rua Doutor Alfredo Ellis,São Paulo,885000,Bela Vista,false,Apartamento,3,1
+884,93,2,Rua Barra Funda,São Paulo,630000,Barra Funda,false,Apartamento,2,1
+885,160,5,Rua Neves Paulista,São Paulo,840000,Água Fria,false,Casa,3,2
+886,110,3,Rua Doutor Melo Alves,São Paulo,1325000,Jardim Paulista,False,Apartamento,2,1
+887,100,2,Rua Melo Peixoto,São Paulo,589000,Tatuapé,false,Apartamento,2,1
+888,100,2,Avenida Marquês de São Vicente,São Paulo,980000,Água Branca,false,Apartamento,3,2
+889,166,3,Rua Emílio Mallet,São Paulo,855000,Tatuapé,false,Apartamento,3,1
+890,130,3,Rua Maria Figueiredo,São Paulo,1200000,Paraíso,true,Apartamento,3,1
+891,126,3,Rua Tavares Bastos,São Paulo,780000,Vila Pompéia,false,Apartamento,2,1
+892,114,3,Rua do Oratório,São Paulo,780000,Mooca,false,Apartamento,2,2
+893,167,3,Rua Domingos de Morais,São Paulo,1300000,Vila Mariana,False,Apartamento,2,2
+894,208,4,Rua Dona Veridiana,São Paulo,2345750,Santa Cecília,false,Apartamento,3,2
+895,160,3,Rua Gonçalves Crespo,São Paulo,997000,Tatuapé,false,Casa,4,2
+896,180,3,Rua Sargento Agostinho Ferreira,São Paulo,650000,Vila Maria ,false,Casa,1,2
+897,360,4,Rua Heras,São Paulo,1850000,Vila Prudente,False,Casa,4,4
+898,240,4,Alameda Jauaperi,São Paulo,1990000,Moema,True,Casa,3,2
+899,190,4,Praça Graciliano Ramos,São Paulo,1500000,Vila Mariana,false,Casa,4,2
+900,279,3,Rua Dom Lúcio de Sousa,São Paulo,1290000,Bosque da Saúde,False,Casa,2,8
+901,99,3,Rua Cisplatina,São Paulo,499000,Ipiranga,False,Apartamento,1,1
+902,61,3,Rua Anny,São Paulo,320000,São João Clímaco,False,Apartamento,2,1
+903,54,2,Alameda Glete,São Paulo,310000,Santa Cecília,False,Apartamento,1,0
+904,300,3,Rua Antônio Sáles de Camargo,São Paulo,1200000,Bosque da Saúde,False,Casa,3,6
+905,169,3,Rua Quatro de Agosto,São Paulo,1200000,Saúde,False,Casa,4,3
+906,200,4,Rua Xavier de Almeida,São Paulo,2389500,Ipiranga,True,Apartamento,4,3
+907,126,3,Rua Marquês de Valença,São Paulo,860000,Mooca,False,Apartamento,3,1
+908,97,3,Rua Xavier de Almeida,São Paulo,800000,Ipiranga,False,Apartamento,3,3
+909,219,4,Rua José Zappi,São Paulo,1000000,Mooca,False,Casa,2,3
+910,100,2,Rua Duílio,São Paulo,1000000,Vila Romana,False,Apartamento,3,2
+911,380,3,Rua Guaçu,São Paulo,2900000,Sumaré,True,Casa,4,2
+912,127,2,Rua Professor Castro Soromenho,São Paulo,850000,Campo Belo,False,Casa,3,2
+913,200,3,Rua Salvador Romeu,São Paulo,1100000,Água Fria,False,Casa,5,4
+914,164,3,Avenida Ramalho Ortigão,São Paulo,1200000,Bosque da Saúde,False,Apartamento,2,2
+915,94,2,Alameda dos Guaramomis,São Paulo,950000,Moema,False,Apartamento,3,2
+916,120,3,Rua Padre Raposo,São Paulo,860000,Mooca,False,Apartamento,3,3
+917,200,4,Rua Brigadeiro Xavier de Brito,São Paulo,845000,Casa Verde,False,Casa,3,3
+918,97,2,Rua Gaspar Lourenço,São Paulo,700000,Vila Mariana,False,Apartamento,2,1
+919,85,2,Avenida Túlio Teodoro de Campos,São Paulo,490000,Vila Mascote,False,Apartamento,1,2
+920,130,3,Rua Pernambuco,São Paulo,1380000,Higienópolis,False,Apartamento,2,1
+921,72,2,Rua Parma,São Paulo,351000,Vila Gustavo,false,Apartamento,2,0
+922,87,3,Avenida Patente,São Paulo,360000,São João Clímaco,False,Apartamento,1,1
+923,155,3,Rua General Lecor,São Paulo,860000,Ipiranga,false,Apartamento,4,3
+924,120,3,Rua Pedro Pomponazzi,São Paulo,1100000,Vila Mariana,false,Apartamento,3,2
+925,363,5,Rua Anatole France,São Paulo,1250000,Vila das Mercês,true,Casa,5,2
+926,450,8,Rua João de Carvalho,São Paulo,1200000,Liberdade,False,StudioOuKitchenette,8,0
+927,284,4,Rua dos Ingleses,São Paulo,2340000,Bela Vista,False,Apartamento,5,2
+928,204,4,Rua José Justino Pereira,São Paulo,880000,Mandaqui,False,Casa,3,3
+929,135,3,Rua Miragem,São Paulo,790000,Jardim Anália Franco,False,Apartamento,5,2
+930,280,3,Rua Brás Cubas,São Caetano do Sul,1540000,Jardim São Caetano,False,Casa,3,4
+931,297,4,Rua Edson,São Paulo,2340000,Campo Belo,False,Apartamento,4,3
+932,58,1,Rua Gomes de Carvalho,São Paulo,1500000,Vila Olímpia,False,Apartamento,1,1
+933,84,2,Rua Gomes de Carvalho,São Paulo,850000,Vila Olímpia,False,Apartamento,2,1
+934,65,2,Ministro Gastão Mesquita,São Paulo,700000,Sumaré,False,Apartamento,1,2
+935,150,2,Rua Hamburgo,São Paulo,650000,Vila Constança ,False,Casa,2,2
+936,65,2,Rua Joaquim Antunes,São Paulo,901000,Pinheiros,False,Apartamento,2,1
+937,85,2,Avenida Coronel José Pires de Andrade,São Paulo,730000,Vila das Mercês,False,Apartamento,2,2
+938,190,2,Rua Porto Martins,São Paulo,1800000,Brooklin,True,Apartamento,2,2
+939,97,3,Rua Jesuíno Arruda,São Paulo,1050000,Itaim Bibi,False,Apartamento,2,1
+940,74,2,Rua Damiana da Cunha,São Paulo,600000,Santana,False,Apartamento,2,2
+941,80,3,R. Bueno de Andrade,São Paulo,739000,Aclimação,false,Apartamento,2,2
+942,290,3,Alameda dos Araés,São Paulo,2500000,Planalto Paulista,False,Casa,5,4
+943,130,3,Rua Haddock Lobo,São Paulo,1600000,Jardim Paulista,False,Apartamento,3,2
+944,350,5,Rua José Oliveira Matias,São Paulo,2500000,Tucuruvi,false,Casa,7,4
+945,400,4,Rua Crisólita,São Paulo,1800000,Cambuci,False,Casa,4,2
+946,75,3,Rua do Rocio,São Paulo,978000,Vila Olímpia,True,Apartamento,2,1
+947,107,3,Rua Ivaí,São Paulo,1100000,Tatuapé,False,Apartamento,3,2
+948,117,3,Rua Sampaio Viana,São Paulo,1200000,Paraíso,False,Apartamento,2,2
+949,105,2,Avenida Álvaro Machado Pedrosa,São Paulo,890000,Água Fria,False,Apartamento,3,2
+950,58,1,Rua Quatá,São Paulo,890000,Vila Olímpia,True,StudioOuKitchenette,1,0
+951,62,2,Rua Major Basílio,São Paulo,465000,Belém,True,Apartamento,2,2
+952,390,3,Rua Tuiuti,São Paulo,1700000,Tatuapé,False,Apartamento,3,2
+953,67,2,Rua Abagiba,São Paulo,400000,Vila das Mercês,False,Apartamento,2,1
+954,117,3,Rua Inhambú,São Paulo,1270000,Moema,false,Apartamento,2,2
+955,154,4,Rua Oscar Freire,São Paulo,1980000,Jardim Paulista,False,Apartamento,3,2
+956,145,4,Rua França Pinto,São Paulo,1200000,Vila Mariana,False,Apartamento,4,2
+957,115,3,Rua Romão Puiggari,São Paulo,700000,Vila das Mercês,False,Casa,3,2
+958,122,3,Rua Áureliano Coutinho,São Paulo,890000,Santa Cecília,False,Apartamento,2,0
+959,100,3,Rua Major Dantas Cortez,São Paulo,469000,Vila Ede,False,CasaCondominio,3,2
+960,75,2,Rua João Moura,São Paulo,1075000,Pinheiros,True,Apartamento,3,2
+961,62,2,Rua Doutor Zuquim,São Paulo,325000,Santana,False,Apartamento,1,0
+962,50,2,Rua Elba,São Paulo,330000,Vila das Mercês,False,Apartamento,1,1
+963,107,3,Rua Borebi,São Paulo,1250000,Vila Mariana,False,Apartamento,3,2
+964,160,2,Rua Pássaros E Flores,São Paulo,1400000,Brooklin,False,Apartamento,2,1
+965,100,2,Rua Lituânia,São Paulo,520000,Mooca,False,Casa,2,0
+966,116,2,Alameda Eduardo Prado,São Paulo,900000,Bom Retiro,False,Apartamento,1,1
+967,240,3,Rua Conselheiro Brotero,São Paulo,2100000,Santa Cecília,false,Apartamento,3,0
+968,69,3,Rua Atalaia Velha,São Paulo,330000,Jardim Anália Franco,False,Apartamento,2,1
+969,75,2,Rua Palacete das Águias,São Paulo,650000,Vila Mascote,false,Apartamento,1,1
+970,200,4,Rua Fujie Nitta,São Paulo,1690000,Campo Belo,false,Casa,6,2
+971,54,2,Rua Baía Grande,São Paulo,330000,Vila Prudente,False,Apartamento,1,1
+972,106,2,Praça Marechal Deodoro,São Paulo,875000,Santa Cecília,True,Apartamento,1,1
+973,70,3,Avenida Doutor Altino Arantes,São Paulo,590000,Vila Clementino,False,Apartamento,1,1
+974,50,2,Rua George Chahestian,São Paulo,290000,Santana,false,Apartamento,1,1
+975,100,2,Rua Guacharapós,São Paulo,610000,Vila Constança ,True,Casa,3,2
+976,230,4,Rua da Consolação,São Paulo,1900000,Jardim Paulista,False,Apartamento,4,0
+977,68,2,Rua Paraná,São Paulo,604200,Mooca,False,Apartamento,2,1
+978,242,3,Rua Umberto Boccioni,São Paulo,1440000,Mandaqui,False,Casa,4,4
+979,50,2,Avenida Tiradentes,São Paulo,370000,Bom Retiro,false,Apartamento,1,1
+980,81,2,Rua Cardoso Pímentel,São Paulo,415000,Vila Mazzei,False,Casa,3,2
+981,143,3,Rua André Fernandes,São Paulo,2280000,Itaim Bibi,False,Apartamento,2,2
+982,128,3,Rua Pedro Pomponazzi,São Paulo,1250000,Vila Mariana,False,Apartamento,4,2
+983,370,3,Rua Antônio Píres,São Paulo,1650000,Freguesia do Ó,False,Casa,5,3
+984,94,3,Rua Cônego Januário,São Paulo,860000,Ipiranga,False,Apartamento,2,1
+985,98,3,Avenida Patente,São Paulo,300000,São João Clímaco,False,Apartamento,2,1
+986,110,3,Avenida Moaci,São Paulo,850000,Moema,True,Casa,3,2
+987,111,3,Rua Caravelas,São Paulo,1390000,Vila Mariana,False,Apartamento,3,3
+988,140,4,Alameda Joaquim Eugênio de Lima,São Paulo,1200000,Bela Vista,False,Apartamento,3,2
+989,150,3,Rua João Moura,São Paulo,860000,Pinheiros,False,Apartamento,3,2
+990,67,3,Rua Henrique Sertório,São Paulo,640000,Tatuapé,False,Apartamento,2,1
+991,55,2,Rua Alba,São Paulo,300000,Jabaquara,False,Apartamento,1,1
+992,72,2,Rua Doutor Jose Maria de Azevedo,São Paulo,560000,Cambuci,false,Apartamento,2,1
+993,83,3,Rua Santa Leocádia,São Paulo,680000,Água Fria,False,Apartamento,2,2
+994,126,4,Rua Augusto Rolim Loureiro,São Paulo,800000,Planalto Paulista,False,Casa,4,2
+995,57,2,Avenida Miguel Estefno,São Paulo,390000,Bosque da Saúde,False,Apartamento,2,1
+996,85,3,Rua Coronel José Pires de Andrade,São Paulo,815000,Vila das Mercês,False,Apartamento,2,1
+997,142,2,Rua Caravelas,São Paulo,1950000,Vila Mariana,False,Apartamento,3,2
+998,54,1,Rua Álvaro de Carvalho,São Paulo,564000,Consolação,False,StudioOuKitchenette,1,0
+999,75,3,Rua Vergueiro,São Paulo,355000,Vila das Mercês,False,Apartamento,1,0
